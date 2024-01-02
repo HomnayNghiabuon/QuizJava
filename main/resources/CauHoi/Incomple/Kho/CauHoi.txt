@@ -1,0 +1,13 @@
+001#KHO#There are three sizes......0.... Schnauzer dog.
+The two smaller sizes first ... 1... to England over 50 years ago, but the Giant Schnauzer has not ...2... here very long. The name Giant is a good one because the dogs are 65 to 67.5cm high.
+All the dogs ...3... long hair, which should be cut quite often. Most smaller Schnauzers ...4... grey in colour, ...5... the Giant Schnauzer is usually black.
+Schnauzers come from Germany, where farmers use the dogs to help ...6... with their sheep, and they are also used ...7... the police, because Schnauzer dogs are very intelligent.
+A Schnauzer makes ...8... nice family dog. It is friendly and very good with young children.#
+01#KHO#0#A.  with#B.  of#C.  in&B#
+02#KHO#1# A. came #B. come #C. comes&A#
+03#KHO#2#A. being #B.  be #C.  been&A#
+04#KHO#3#A. were #B. is #C. are&A#
+05#KHO#4#A. or #B.  if #C.  but&A#
+06#KHO#5#A. thum #B. him #C. us&A#
+07#KHO#6#A. from #B.  by #C.  to&A#
+08#KHO#7#A. the #B.  are #C.  any&A#
