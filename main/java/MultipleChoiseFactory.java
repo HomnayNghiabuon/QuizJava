@@ -2,16 +2,13 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.security.spec.RSAOtherPrimeInfo;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class MultipleChoiseFactory  {
 
-	public String[] cacCauHoiDaLam(String idHocVien){
+	private String[] cacCauHoiDaLam(String idHocVien){
 		try {
-			FileReader fileReader = new FileReader("E:\\JavaCode\\BTLon\\src\\main\\resources\\CauHoiDaLam\\CauHoiDaLam.txt");
+			FileReader fileReader = new FileReader("src/main/resources/CauHoiDaLam/CauHoiDaLam.txt");
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 			String line;
 			while ((line = bufferedReader.readLine()) != null) {
@@ -28,17 +25,45 @@ public class MultipleChoiseFactory  {
 		}
 		return  null;
 	}
+	private Set<Integer> randomSetWithoutArrayElements(int n, String[] a) {
+		if ((n + a.length) > CauHinh.SO_CAU_HOI_MULTIPLE_CHOICE) {
+			throw new IllegalArgumentException("Số lượng phần tử vượt quá giới hạn cho phép");
+		}
+		Set<Integer> resultSet = new TreeSet<>();
+		while (resultSet.size() < n) {
+			int randomNumber = CauHinh.random(1,CauHinh.SO_CAU_HOI_MULTIPLE_CHOICE); // Sinh số ngẫu nhiên
+
+			// Kiểm tra xem số ngẫu nhiên đã sinh có trong mảng a[] không
+			boolean containsInArray = false;
+			for (String s : a) {
+				int num = Integer.parseInt(s);
+				if (num == randomNumber) {
+					containsInArray = true;
+					break;
+				}
+			}
+
+			// Nếu số ngẫu nhiên không có trong mảng a[], thêm vào set
+			if (!containsInArray) {
+				resultSet.add(randomNumber);
+			}
+		}
+		return resultSet;
+	}
 	public List<CauHoi> taoCacCauHoiTuFile(String idHocVien, int soCauHoi){
+		if(soCauHoi<1) return null;
 		List<CauHoi> cacCauHoi = new ArrayList<>();
-		String[] cacCauHoiDaLam = cacCauHoiDaLam(idHocVien);
 		try {
-			FileReader fileReader = new FileReader("E:\\JavaCode\\BTLon\\src\\main\\resources\\CauHoi\\MultipleChoise\\CauHoi.txt");
+			FileReader fileReader = new FileReader("src/main/resources/CauHoi/MultipleChoise/CauHoi.txt");
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			String[] cacCauHoiDaLam = cacCauHoiDaLam(idHocVien);
+			Set<Integer> idCacCauHoiCanDoc = randomSetWithoutArrayElements(soCauHoi, cacCauHoiDaLam);
 			String line;
-			while ((line = bufferedReader.readLine()) != null && soCauHoi > 0) {
+			int dem = 0;
+			while ((line = bufferedReader.readLine()) != null) {
 				String idCauHoi = line.substring(0,4);
-				boolean tonTai = Arrays.stream(cacCauHoiDaLam).anyMatch(s -> s.equals(idCauHoi));
-				if(!tonTai){
+				if(idCacCauHoiCanDoc.stream().anyMatch(s -> s.equals(Integer.parseInt(idCauHoi)))){
+					dem++;
 					String[] data = line.substring(5).split("#");
 					int i = 0;
 					String id = idCauHoi;
@@ -53,15 +78,15 @@ public class MultipleChoiseFactory  {
 					}
 					CauHoi multipleChoice = new MultipleChoice(id, mucDo, danhMuc, cacPhuongAn, noiDungCauHoi);
 					cacCauHoi.add(multipleChoice);
-					soCauHoi--;
 				}
+				if(dem == idCacCauHoiCanDoc.size() -1 ) break;
 			}
 			bufferedReader.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		if(soCauHoi>0) System.out.printf("Chỉ còn %d câu hỏi chưa làm", cacCauHoi.size());
 		return cacCauHoi;
 	}
+
 
 }

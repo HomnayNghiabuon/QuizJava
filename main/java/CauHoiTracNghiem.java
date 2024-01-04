@@ -2,14 +2,14 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CauHoiTracNghiem extends CauHoi {
-	private DanhMuc danhMuc;
-	private List<PhuongAn> cacPhuongAn;
+	protected DanhMuc danhMuc;
+	protected List<PhuongAn> cacPhuongAn;
 
 
 	public CauHoiTracNghiem() {
 	}
 
-	public CauHoiTracNghiem(String id, MucDo mucDo, DanhMuc danhMuc, List<PhuongAn> cacPhuongAn) {
+public CauHoiTracNghiem(String id, MucDo mucDo, DanhMuc danhMuc, List<PhuongAn> cacPhuongAn) {
 		super(id, mucDo);
 		this.danhMuc = danhMuc;
 		this.cacPhuongAn = cacPhuongAn;
@@ -18,7 +18,6 @@ public class CauHoiTracNghiem extends CauHoi {
 	public List<PhuongAn> getCacPhuongAn() {
 		return cacPhuongAn;
 	}
-
 	public void setCacPhuongAn(List<PhuongAn> cacPhuongAn) {
 		this.cacPhuongAn = cacPhuongAn;
 	}

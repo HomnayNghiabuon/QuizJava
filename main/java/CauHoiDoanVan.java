@@ -1,16 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class CauHoiDoanVan extends CauHoi {
 
 	private DoanVan doanVan;
 
-	private CauHoi cauHoiHead;
+	private List<CauHoi> danhSachCauHoi= new ArrayList<>();
 
 	public CauHoiDoanVan() {
 	}
 
-	public CauHoiDoanVan(String id, MucDo mucDo, DoanVan doanVan, CauHoi cauHoiHead) {
+	public CauHoiDoanVan(String id, MucDo mucDo, DoanVan doanVan, List<CauHoi> danhSachCauHoi) {
 		super(id, mucDo);
 		this.doanVan = doanVan;
-		this.cauHoiHead = cauHoiHead;
+		this.danhSachCauHoi = danhSachCauHoi;
 	}
 
 	public DoanVan getDoanVan() {
@@ -21,12 +24,12 @@ public abstract class CauHoiDoanVan extends CauHoi {
 		this.doanVan = doanVan;
 	}
 
-	public CauHoi getCauHoiHead() {
-		return cauHoiHead;
+	public List<CauHoi> getDanhSachCauHoi() {
+		return danhSachCauHoi;
 	}
 
-	public void setCauHoiHead(CauHoi cauHoiHead) {
-		this.cauHoiHead = cauHoiHead;
+	public void setDanhSachCauHoi(List<CauHoi> danhSachCauHoi) {
+		this.danhSachCauHoi = danhSachCauHoi;
 	}
 
 	public abstract String toString();

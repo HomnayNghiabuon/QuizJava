@@ -1,6 +1,6 @@
-public class CauHoi {
+public abstract class CauHoi {
 
-	private String id;
+	protected String id;
 	MucDo mucDo;
 	public CauHoi() {
 	}

@@ -9,8 +9,23 @@
 0009#KHO#DONG_TU#Please______ photocopies of documents. #A. not to submit  #B. do not submit  #C. no submit  #D. not submit#B
 0010#TRUNG_BINH#DONG_TU#I __________ bacon and eggs every morning. #A. am used to eat  #B. used to eating  #C. am used to eating #D. use to eat#C
 0011#KHO#DONG_TU#The team really looks good tonight because the coach had them________ every nightthis week.  #A. practice  #B. practiced  #C. to practice  #D. the practice#A
-0012#TRUNG_BINH_DONG_TU#Would you mind _________ please? #A. to answer the telephone  #B. answering the telephone #C. answer the telephone  #D. to the telephone answering#B
+0012#TRUNG_BINH#DONG_TU#Would you mind _________ please? #A. to answer the telephone  #B. answering the telephone #C. answer the telephone  #D. to the telephone answering#B
 0013#DE#DONG_TU#You ________ your seats today if you want to go to the game. #A. had better to reserve  #B. had to better reserve #C. had better reserve   #D. had to reserve better#C
 0014#KHO#DONG_TU#If it___________ so late we could have coffee. #A. wasn't   #B. isn't  #C. weren't   #D. not be#C
 0015#KHO#DONG_TU#Your sister used to visit you quite often________? #A. didn't she  #B. doesn't she  #C. wouldn't she  #D. hadn't she#A
 0016#TRUNG_BINH#DONG_TU#If Bod _______ with us, he would have had a good time. #A. would come    #B. would have come #C. had come    #D. came#C
+0017#DE#DANH_TU#A mail offering suggestions is a ______.#A. proposal mail#B. propose mail#C. mail proposal#D. mail propose#D
+0018#KHO#DANH_TU#Harry drinks a lot. He is such a big ....................... (DRINK)#A. drinker #B. drinkable #C. drinking #D. drinkability#A
+0019#DE#DANH_TU#Come on, let’s watch them arrive in their smartest suits and shades for Louis Tomlinson’s mum’s ............ (WED)#A. wedded #B. wedding #C. weddings #D. wed#A
+0020#TRUNG_BINH#DANH_TU#One Direction ..................(DANCE) made miracle (RECOVER)..............from horrific accident with help from loyal dogs.#A. dancing- discovery #B. dance- discovery #C. dancer- recovery #D. dancers-discovery#C
+0021#DE#DANH_TU#They have just confirmed follow-up movie after This Is Us missed out on Oscar (NOMINATE)...........#A. nomination #B. nominating #C. nominitive #D. nominee#B
+0022#KHO#DANH_TU# I know you’re proud of your achievements, but let’s at least keep some (HUMBLE)..........#A. humiliation #B. humility #C. humbility #D. humblation#A
+0023#TRUNG_BINH#DANH_TU# (HATE)........... are gonna hate, potatoes’re gonna potate, I already ate.#A. haters #B. hating #C. hatred #D. hateful#B
+0024#DE#DANH_TU#I honestly don’t know what to do right now. Could you give me some (SERENE).......... please?#A. serenade #B. serenity #C. serendipity #D. serendipity#D
+0025#DE#DANH_TU# Don’t look at me like that. I know I’m a (WEIRD)...........#A. weirdness #B. weird #C. weirdliness #D. weirdo#A
+0026#KHO#DANH_TU#What is your biggest (WEAK).............?#A. weakenning #B. weaken #C. weakness #D. weakfish#B
+0027#TRUNG_BINH#DANH_TU#And what are some of your (STRONG)..............?#A. strengthen #B. strengths #C. strongly #D. strongly#C
+0028#DE#DANH_TU# I so hate researching. What’s the point of being a (RESEARCH)......... anyways?#A. research #B. searcher #C. researcher #D. researching#D
+0029#KHO#DANH_TU#I’d love to be a (LOSE)............ What’s the point of being a (WIN)......... anyways?#A. losers-winners #B. loser-winner #C. lost- win #D. loss-winner#B
+0030#TRUNG_BINH#DANH_TU#This exercise is a bit ridiculous. Whatever, I don’t care, I’m not in the right state of mind right now. I’m not trying to hide my (ADDICT)............ to that boy band, you know.#A. addictive #B. addicted #C. addiction #D. addicting#C
+
