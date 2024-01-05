@@ -1,4 +1,10 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class ThongTinDangNhapHocVien {
+	private  String idHocVien;
 
 	private String tenDangNhap;
 
@@ -6,14 +12,6 @@ public class ThongTinDangNhapHocVien {
 
 	private TrangThaiDangNhap trangThaiDangNhap;
 
-	public ThongTinDangNhapHocVien() {
-	}
-
-	public ThongTinDangNhapHocVien(String tenDangNhap, String matKhau, TrangThaiDangNhap trangThaiDangNhap) {
-		this.tenDangNhap = tenDangNhap;
-		this.matKhau = matKhau;
-		this.trangThaiDangNhap = trangThaiDangNhap;
-	}
 
 	public String getTenDangNhap() {
 		return tenDangNhap;
@@ -35,16 +33,41 @@ public class ThongTinDangNhapHocVien {
 		return trangThaiDangNhap;
 	}
 
-	public void setTrangThaiDangNhap(TrangThaiDangNhap trangThaiDangNhap) {
+	private void setTrangThaiDangNhap(TrangThaiDangNhap trangThaiDangNhap) {
 		this.trangThaiDangNhap = trangThaiDangNhap;
 	}
 
-	public boolean isValid(){
-		return true;
+	public String getIdHocVien() {
+		if(this.trangThaiDangNhap == TrangThaiDangNhap.SUCCESS) return this.idHocVien;
+		return null;
 	}
 
-	public String idNguoiDung(){
-		return "0";
+	private void setIdHocVien(String idHocVien) {
+		this.idHocVien = idHocVien;
 	}
+
+	public void dangNhap(){
+		try {
+			FileReader fileReader = new FileReader("src/main/resources/TaiKhoan/ThongTinTaiKhoan.txt");
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			String line;
+			while ((line = bufferedReader.readLine()) != null) {
+				String data[] = line.split("#");
+				if(this.tenDangNhap.equals(data[1])&&this.matKhau.equals(data[2])) {
+					setTrangThaiDangNhap(TrangThaiDangNhap.SUCCESS);
+					setIdHocVien(data[0]);
+					System.out.println("Đăng nhập thành công!");
+					return;
+				}
+			}
+		} catch (FileNotFoundException e) {
+			throw new RuntimeException(e);
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+		System.out.println("Không hợp lệ!");
+	}
+
+
 
 }
