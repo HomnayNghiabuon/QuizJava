@@ -9,7 +9,11 @@ public class Incomple extends CauHoiDoanVan {
 	}
 
 	public String toString() {
-		return null;
+		String temp = "";
+		for(CauHoi cauHoi:this.danhSachCauHoi){
+			temp += ((CauHoiTracNghiem)cauHoi).toString();
+		}
+		return String.format("%s\n%s", this.getDoanVan().toString(), temp);
 	}
 
 }

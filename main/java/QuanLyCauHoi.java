@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class QuanLyCauHoi implements TimKiemCauHoi, XemDanhSachCauHoI {
+public class QuanLyCauHoi  {
 
 	private QuanLyCauHoi instance;
 

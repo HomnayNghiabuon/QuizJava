@@ -26,6 +26,11 @@ public class MultipleChoice extends CauHoiTracNghiem {
 
     @Override
     public String toString() {
-        return null;
+        String kq = "";
+        for(PhuongAn p:this.cacPhuongAn){
+            kq += p.toString();
+            kq += "\n";
+        }
+        return String.format("Question %d. %s. \n%s", dem++, this.noiDungCauHoi, kq);
     }
 }

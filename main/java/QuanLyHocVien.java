@@ -1,8 +1,8 @@
 import java.util.List;
 
-public class QuanLyHocVien implements CapNhapTaiKhoan, XemDanhSachNguoiHoc, ThemTaiKhoan, XoaTaiKhoan {
+public class QuanLyHocVien {
 
-	private TraCuNguoiDungStrategy traCuuNguoiHocStragety;
+	private TraCuHocVienStrategy traCuuNguoiHocStragety;
 
 	private static QuanLyHocVien instance;
 
@@ -10,7 +10,7 @@ public class QuanLyHocVien implements CapNhapTaiKhoan, XemDanhSachNguoiHoc, Them
 
 	}
 
-	public List<NguoiDung> traCuuNguoiDung(Object thongTin) {
+	public List<HocVien> traCuuHocVien(Object thongTin) {
 		return null;
 	}
 
@@ -18,31 +18,31 @@ public class QuanLyHocVien implements CapNhapTaiKhoan, XemDanhSachNguoiHoc, Them
 
 	}
 
-	public void themNguoiDung(NguoiDung... a) {
+	public void themHocVien(HocVien... a) {
 
 	}
 
-	public void capNhapNguoiDung(NguoiDung... nguoiDung) {
+	public void capNhapHocVien(HocVien... HocVien) {
 
 	}
 
-	public void xoaNguoiDung(NguoiDung... a) {
+	public void xoaHocVien(HocVien... a) {
 
 	}
 
-	public NguoiDung traCuuNguoiDungTheoId() {
+	public HocVien traCuuHocVienTheoId() {
 		return null;
 	}
 
-	public NguoiDung docNguoiDungTuFile(String id) {
+	public HocVien docHocVienTuFile(String id) {
 		return null;
 	}
 
-	public List<NguoiDung> docNguoiDungTuFile(String... id) {
+	public List<HocVien> docHocVienTuFile(String... id) {
 		return null;
 	}
 
-	public List<NguoiDung> docTatCaNguoiDungTuFile() {
+	public List<HocVien> docTatCaHocVienTuFile() {
 		return null;
 	}
 
@@ -51,18 +51,13 @@ public class QuanLyHocVien implements CapNhapTaiKhoan, XemDanhSachNguoiHoc, Them
 	}
 
 
-	/**
-	 * @see XemDanhSachNguoiHoc#xemDanhSachNguoiHoc()
-	 */
+
 	public void xemDanhSachNguoiHoc() {
 
 	}
 
 
-	/**
-	 * @see XoaTaiKhoan#xoaTaiKhoan(NguoiDung...)
-	 */
-	public void xoaTaiKhoan(NguoiDung... a) {
+	public void xoaTaiKhoan(HocVien... a) {
 
 	}
 

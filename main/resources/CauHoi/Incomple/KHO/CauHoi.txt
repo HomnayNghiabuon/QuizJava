@@ -1,0 +1,26 @@
+ThongTinDoanVan
+001#DE#There are three sizes......1.... Schnauzer dog.
+The two smaller sizes first ... 2... to England over 50 years ago, but the Giant Schnauzer has not ...3... here very long. The name Giant is a good one because the dogs are 65 to 67.5cm high.
+All the dogs ...4... long hair, which should be cut quite often. Most smaller Schnauzers ...5... grey in colour, ...6... the Giant Schnauzer is usually black.
+Schnauzers come from Germany, where farmers use the dogs to help ...7... with their sheep, and they are also used ...8... the police, because Schnauzer dogs are very intelligent.
+ThongTinCacCauHoi
+01#KHO#DANH_TU#A. with#B. of#C. in#B&
+02#KHO#DANH_TU#A. came #B. come #C. comes#A&
+03#KHO#DANH_TU#A. being #B. be #C. been#A&
+04#KHO#DANH_TU#A. were #B. is #C. are#A&
+05#KHO#DANH_TU#A. or #B. if #C. but#A&
+06#KHO#DANH_TU#A. thum #B. him #C. us#A&
+07#KHO#DANH_TU#A. from #B. by #C. to#A&
+08#KHO#DANH_TU#A. the #B. are #C. any#A&
+ThongTinDoanVan
+002#KHO#ChatGPT is a language model developed by Open AI that uses deep learning techniques to generate human-like responses to text-based prompts or questions. GPT stands for "Generative Pre-Trained Transformer", __(1)__ is a type of neutral network architecture that has been trained on large amount of text data.
+The GPT model is (2)______ of generating coherent and contextually relevant responses to a wide range of prompts, making it useful for a variety of applications, such as chatbots, language translation, and content creation. As a language model, chat GPT is designed to learn and understand the structure of human_(3)___, enabling it to generate responses that sound like they were written by a human.
+ChatGPT gets it information from a vast corpus of text data that has been preprocessed and used to train the model. This corpus includes a diverse range of sources, such as books, articles, web pages, and (4)______ forms of text-based content that are available on the internet. (5)_______, the responses it generates can incorporate knowledge and information that it has learned from this training data.
+Everyone wonders if his tool will eliminate the majority of jobs and put a huge majority of people out of work. This is what GPT Chat's answered when ask the question.
+ThongTinCacCauHoi
+01#KHO#DANH_TU#A. which #B. when #C. that #D. who#B&
+02#KHO#DANH_TU#A. able #B. feasible #C. capable #D. possible#D&
+03#KHO#DANH_TU#A. sound #B. word #C. voice #D. language#B&
+04#KHO#DANH_TU#A. others #B. each #C. other #D. another#C&
+05#KHO#DANH_TU#A. Therefore #B. However #C. But #D. Although#D&
+

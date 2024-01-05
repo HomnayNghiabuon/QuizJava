@@ -1,4 +1,4 @@
 public enum TrangThaiDangNhap {
-	UCCESS, INVALID;
+	SUCCESS, INVALID, FAILURE;
 
 }

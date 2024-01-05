@@ -16,4 +16,9 @@ public class DoanVan {
 	public void setNoiDung(String noiDung) {
 		this.noiDung = noiDung;
 	}
+
+	@Override
+	public String toString() {
+		return this.noiDung;
+	}
 }

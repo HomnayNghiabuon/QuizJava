@@ -3,7 +3,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 public class IncompleFactory{
 
@@ -48,7 +47,7 @@ public class IncompleFactory{
 			List<PhuongAn> cacPhuongAn = new ArrayList<>();
 			int viTriPhuongAnDungTrongData = dataCauHoi[dataCauHoi.length-1].charAt(0) - 65 + j;
 			while (j<dataCauHoi.length-1){
-				cacPhuongAn.add(new PhuongAn(dataCauHoi[i], i == viTriPhuongAnDungTrongData));
+				cacPhuongAn.add(new PhuongAn(dataCauHoi[j], j == viTriPhuongAnDungTrongData));
 				j++;
 			}
 			danhSachCauHoi.add(new CauHoiTracNghiem(idCauHoi, mucDoCauHoi, danhMucCauHoi, cacPhuongAn));

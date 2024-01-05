@@ -27,4 +27,9 @@ public class PhuongAn {
 	public void setChinhXac(boolean chinhXac) {
 		this.chinhXac = chinhXac;
 	}
+
+	@Override
+	public String toString() {
+		return noiDung;
+	}
 }

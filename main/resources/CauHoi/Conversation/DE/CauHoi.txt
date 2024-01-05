@@ -1,0 +1,23 @@
+ThongTinDoanVan
+001#DE#The Long Night
+This is David Reilly's first book. David became a writer after teaching English for several years.
+Maha is a nurse in northern Australia, where she works in a small hospital. One day a baby is so ill that Maha has to dive all night to get her to the nearest big city. They have a lot of problems getting there and...
+Hard Work
+This exciting story is Joanna Jones's twentieth.
+Hard Work is about Sombat, who works, with his father, a carpenter, in Thailand. They work long, hard hours making tables and chairs, but they do not have any money. Then one day a man dressed all in black buys the most beautiful table in the shop...
+Hospital or Cinema?
+Marcie Jacome, who studies English in London, wrote this story earlier this year.
+Tina is a young Brazilian woman whose dream is to become a doctor. She goes to London to study English and medicine but one day she meets a man who asks her to go to the USA with him to become a film star... What will Tina do?
+ThongTinCacCauHoi
+01#DE#Which book is by somebody who has written a lot of books?#A.The Long Night   #B.Hard Work	#C.Hospital or Cinema?#B&
+02#DE#Which book is by somebody who worked in a school?#A.The Long Night  #B.Hard Work    #C.Hospital or Cinema?#A&
+03#DE#Which book is by a student?#A.The Long Night	#B.Hard Work	#C.Hospital or Cinema?#C&
+ThongTinDoanVan
+002#DE#Shipping: The Ocean Corporation now ships its high-quality fishing gear everywhere in the world. Customers can choose many delivery options, including overnight, three-day, and Sunday delivery. Contact a sales representative for more information on our rates. Or shop at our online store and have your shipping rate automatically calculated and charged along with your payment at the time of your purchase.
+Return: Customers may return most items for a full refund within 30 days of purchasing them. However, we do not refund items without a receipt. In addition, customers can return items purchased at one store to a different one. Purchases made by telephone or online can be returned to any store or may simply be mailed back to the company. Please note that items specially wrapped will only be refunded in full if they are still in their original packaging. Also, we will not refund customers the shipping costs involved in sending the items.
+ThongTinCacCauHoi
+01#DE#What does the Ocean Corporation do?#A.It processes seafood.#B.It transports packages by ship#C.It sells fishing products.#D.It constructs ships.#C&
+02#DE#What delivery option is NOT mentioned?#A.Three-day delivery#B.Same-day delivery#C.Overnight delivery#D.Sunday delivery#B&
+03#DE# Which of the following is a part of the Wide Ocean Corporation’s return policy?#A.The company will not refund any item once it has been opened.#B.Customers returning items for a refund do not need their receipts.#C.Items bought on the Internet can only be returned through the mail.#D.Refunds will not cover the cost of delivering an item.#D&
+
+

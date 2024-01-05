@@ -1,8 +1,8 @@
 import java.util.List;
 
-public class TraCuuTheoNgaySinh implements TraCuNguoiDungStrategy {
+public class TraCuuTheoNgaySinh implements TraCuHocVienStrategy {
 
-	public List<NguoiDung> traCuuNguoiDung(Object thongTin) {
+	public List<HocVien> traCuuNguoiDung(Object thongTin) {
 		return null;
 	}
 

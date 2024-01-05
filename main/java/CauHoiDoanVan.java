@@ -3,9 +3,9 @@ import java.util.List;
 
 public abstract class CauHoiDoanVan extends CauHoi {
 
-	private DoanVan doanVan;
+	protected DoanVan doanVan;
 
-	private List<CauHoi> danhSachCauHoi= new ArrayList<>();
+	protected List<CauHoi> danhSachCauHoi= new ArrayList<>();
 
 	public CauHoiDoanVan() {
 	}
@@ -32,6 +32,8 @@ public abstract class CauHoiDoanVan extends CauHoi {
 		this.danhSachCauHoi = danhSachCauHoi;
 	}
 
-	public abstract String toString();
+	public String toString(){
+		return String.format("%s", this.doanVan.toString());
+	};
 
 }

@@ -2,13 +2,15 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CauHoiTracNghiem extends CauHoi {
+	protected static int dem= 1;
 	protected DanhMuc danhMuc;
 	protected List<PhuongAn> cacPhuongAn;
+	{
 
+	}
 
 	public CauHoiTracNghiem() {
 	}
-
 public CauHoiTracNghiem(String id, MucDo mucDo, DanhMuc danhMuc, List<PhuongAn> cacPhuongAn) {
 		super(id, mucDo);
 		this.danhMuc = danhMuc;
@@ -36,6 +38,11 @@ public CauHoiTracNghiem(String id, MucDo mucDo, DanhMuc danhMuc, List<PhuongAn> 
 
 	@Override
 	public String toString() {
-		return null;
+		String kq = "";
+		for(PhuongAn p:this.cacPhuongAn){
+			kq += p.toString();
+			kq += "\n";
+		}
+		return String.format("Question %d:\n%s" , dem++, kq);
 	}
 }
