@@ -4,7 +4,7 @@ The two smaller sizes first ... 2... to England over 50 years ago, but the Giant
 All the dogs ...4... long hair, which should be cut quite often. Most smaller Schnauzers ...5... grey in colour, ...6... the Giant Schnauzer is usually black.
 Schnauzers come from Germany, where farmers use the dogs to help ...7... with their sheep, and they are also used ...8... the police, because Schnauzer dogs are very intelligent.
 ThongTinCacCauHoi
-01#DE#DANH_TU#A. with#B. of#C. in#B&
+01#DE#DOC_HIEU#A. with#B. of#C. in#B&
 02#DE#DANH_TU#A. came #B. come #C. comes#A&
 03#DE#DANH_TU#A. being #B. be #C. been#A&
 04#DE#DANH_TU#A. were #B. is #C. are#A&

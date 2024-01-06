@@ -5,8 +5,7 @@ import java.util.Set;
 
 public class Tester {
     public static void main(String[] args) {
-//        MultipleChoiseFactory multipleChoiseFactory = new MultipleChoiseFactory();
-//        List<CauHoi> multipleChoices = multipleChoiseFactory.taoCacCauHoiTuFile("hv00003", 10);
+
 //        multipleChoices.forEach(a -> System.out.println(((MultipleChoice)a).toString()));
 //        ConversationFactory conversationFactory = new ConversationFactory();
 //        CauHoi cauHoi = conversationFactory.taoCauHoiTuFile(MucDo.KHO);
@@ -26,6 +25,9 @@ public class Tester {
         if (tt1.getTrangThaiDangNhap() == TrangThaiDangNhap.SUCCESS) {
             HocVien hv1 = hocVienFactory.taoHocVien(tt1.getIdHocVien());
             System.out.println(hv1.toString());
+            BaiKiemTra baiKiemTra = new BaiKiemTra();
+            baiKiemTra.setHocVien(hv1);
+            baiKiemTra.napCauHoi();
         }
     }
 }

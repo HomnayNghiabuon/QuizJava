@@ -51,7 +51,7 @@ public class ConversationFactory{
 				cacPhuongAn.add(new PhuongAn(dataCauHoi[j], j == viTriPhuongAnDungTrongData));
 				j++;
 			}
-			danhSachCauHoi.add(new CauHoiTracNghiem(idCauHoi, mucDoCauHoi, danhMucCauHoi, cacPhuongAn));
+			danhSachCauHoi.add(new MultipleChoice(idCauHoi, mucDoCauHoi, danhMucCauHoi, cacPhuongAn, noiDungCauHoi));
 		}
 		conversation.setId(idCauHoiDoanVan);
 		conversation.setMucDo(mucDoCauHoiDoanVan);

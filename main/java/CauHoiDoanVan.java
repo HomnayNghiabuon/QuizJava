@@ -32,8 +32,6 @@ public abstract class CauHoiDoanVan extends CauHoi {
 		this.danhSachCauHoi = danhSachCauHoi;
 	}
 
-	public String toString(){
-		return String.format("%s", this.doanVan.toString());
-	};
+	public abstract String toString();
 
 }

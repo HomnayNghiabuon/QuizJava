@@ -5,8 +5,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
+import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 public class CauHinh {
+    public static final Scanner scanner = new Scanner(System.in);
     public static final String TIME_PATTERN = "dd/MM/yyyy";
     public static int SO_CAU_HOI_MULTIPLE_CHOICE;
     public static final Map<MucDo, Integer> SO_CAU_HOI_INCOMPLE_THEO_MUC_DO = new HashMap();

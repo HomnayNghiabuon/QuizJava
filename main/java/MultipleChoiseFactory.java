@@ -27,7 +27,7 @@ public class MultipleChoiseFactory  {
 	}
 	private Set<Integer> randomSetWithoutArrayElements(int n, String[] a) {
 		if ((n + a.length) > CauHinh.SO_CAU_HOI_MULTIPLE_CHOICE) {
-			throw new IllegalArgumentException("Số lượng phần tử vượt quá giới hạn cho phép");
+			throw new IllegalArgumentException("Ngân hàng câu hỏi không đủ dữ liệu!");
 		}
 		Set<Integer> resultSet = new TreeSet<>();
 		while (resultSet.size() < n) {
@@ -79,7 +79,7 @@ public class MultipleChoiseFactory  {
 					CauHoi multipleChoice = new MultipleChoice(id, mucDo, danhMuc, cacPhuongAn, noiDungCauHoi);
 					cacCauHoi.add(multipleChoice);
 				}
-				if(dem == idCacCauHoiCanDoc.size() -1 ) break;
+				if(dem == idCacCauHoiCanDoc.size() ) break;
 			}
 			bufferedReader.close();
 		} catch (IOException e) {
