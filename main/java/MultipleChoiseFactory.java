@@ -1,12 +1,13 @@
+
 import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.security.spec.RSAOtherPrimeInfo;
-import java.util.*;
+		import java.io.FileReader;
+		import java.io.IOException;
+		import java.security.spec.RSAOtherPrimeInfo;
+		import java.util.*;
 
-public class MultipleChoiseFactory  {
+public class MultipleChoiseFactory  implements TaoCauHoiMultipleChoice{
 
-	private String[] cacCauHoiDaLam(String idHocVien){
+	public String[] cacCauHoiDaLam(String idHocVien){
 		try {
 			FileReader fileReader = new FileReader("src/main/resources/CauHoiDaLam/CauHoiDaLam.txt");
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -14,6 +15,7 @@ public class MultipleChoiseFactory  {
 			while ((line = bufferedReader.readLine()) != null) {
 				String id = line.substring(0,7);
 				if(idHocVien.equals(id)) {
+					if (line.length()<=7) return null;
 					String[] data = line.substring(8).split("#"); // Tách dữ liệu theo dấu #
 					return data;
 				}
@@ -25,8 +27,8 @@ public class MultipleChoiseFactory  {
 		}
 		return  null;
 	}
-	private Set<Integer> randomSetWithoutArrayElements(int n, String[] a) {
-		if ((n + a.length) > CauHinh.SO_CAU_HOI_MULTIPLE_CHOICE) {
+	public Set<Integer> randomSetWithoutArrayElements(int n, String[] a) {
+		if ((n + (a!=null?a.length:0)) > CauHinh.SO_CAU_HOI_MULTIPLE_CHOICE) {
 			throw new IllegalArgumentException("Ngân hàng câu hỏi không đủ dữ liệu!");
 		}
 		Set<Integer> resultSet = new TreeSet<>();
@@ -35,7 +37,7 @@ public class MultipleChoiseFactory  {
 
 			// Kiểm tra xem số ngẫu nhiên đã sinh có trong mảng a[] không
 			boolean containsInArray = false;
-			for (String s : a) {
+			if(a!=null) for (String s : a) {
 				int num = Integer.parseInt(s);
 				if (num == randomNumber) {
 					containsInArray = true;

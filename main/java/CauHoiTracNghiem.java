@@ -17,6 +17,14 @@ public CauHoiTracNghiem(String id, MucDo mucDo, DanhMuc danhMuc, List<PhuongAn> 
 		this.cacPhuongAn = cacPhuongAn;
 	}
 
+	public static int getDem() {
+		return dem;
+	}
+
+	public static void setDem(int dem) {
+		CauHoiTracNghiem.dem = dem;
+	}
+
 	public List<PhuongAn> getCacPhuongAn() {
 		return cacPhuongAn;
 	}
@@ -31,11 +39,10 @@ public CauHoiTracNghiem(String id, MucDo mucDo, DanhMuc danhMuc, List<PhuongAn> 
 	public void setDanhMuc(DanhMuc danhMuc) {
 		this.danhMuc = danhMuc;
 	}
-
-	public int chonDapAn(int index) {
-		return 0;
+	public void hienThiDapAnDung(){
+		System.out.printf("Đáp án đúng: %s\n", this.getCacPhuongAn().stream().
+			filter(phuongAn -> phuongAn.isChinhXac()).findFirst().orElse(null).toString());
 	}
-
 	@Override
 	public String toString() {
 		String kq = "";

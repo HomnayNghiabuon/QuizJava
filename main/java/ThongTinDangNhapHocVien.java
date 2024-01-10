@@ -4,15 +4,27 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ThongTinDangNhapHocVien {
-	private  String idHocVien;
+	private String idHocVien;
 
 	private String tenDangNhap;
 
 	private String matKhau;
 
 	private TrangThaiDangNhap trangThaiDangNhap;
-
-
+	{
+		this.trangThaiDangNhap = TrangThaiDangNhap.INVALID;
+	}
+	public ThongTinDangNhapHocVien(String idHocVien, String tenDangNhap, String matKhau) {
+		this.idHocVien = idHocVien;
+		this.tenDangNhap = tenDangNhap;
+		this.matKhau = matKhau;
+	}
+	public ThongTinDangNhapHocVien(String idHocVien, String tenDangNhap, String matKhau, TrangThaiDangNhap trangThaiDangNhap) {
+		this.idHocVien = idHocVien;
+		this.tenDangNhap = tenDangNhap;
+		this.matKhau = matKhau;
+		this.trangThaiDangNhap = TrangThaiDangNhap.INVALID;
+	}
 	public String getTenDangNhap() {
 		return tenDangNhap;
 	}
@@ -38,8 +50,7 @@ public class ThongTinDangNhapHocVien {
 	}
 
 	public String getIdHocVien() {
-		if(this.trangThaiDangNhap == TrangThaiDangNhap.SUCCESS) return this.idHocVien;
-		return null;
+		return this.idHocVien;
 	}
 
 	private void setIdHocVien(String idHocVien) {
@@ -67,7 +78,5 @@ public class ThongTinDangNhapHocVien {
 		}
 		System.out.println("Không hợp lệ!");
 	}
-
-
 
 }

@@ -11,7 +11,7 @@ public class Conversation extends CauHoiDoanVan {
 	public String toString() {
 		String temp = "";
 		for(CauHoi cauHoi:this.danhSachCauHoi){
-			temp += cauHoi.toString();
+			temp += ((MultipleChoice)cauHoi).toString();
 		}
 		return String.format("%s\n%s", this.getDoanVan().toString(), temp);
 	}

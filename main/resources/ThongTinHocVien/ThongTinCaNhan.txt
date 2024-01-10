@@ -1,4 +1,7 @@
-hv00001#Trần Quang Phục#Quảng Nam#06/12/2004#Nam
-hv00002#Nguyễn Ích Nghĩa#Thừa Thiên Huế#05/10/2004#Nam
-hv00003#Lê Hoàng Phúc#Quảng Ngãi#02/02/2004#Nam
-hv00004#Nguyễn Thị Thùy Nhung#Nghệ An#10/07/2002#Nữ
+hv00001#Trần Quang Phục#Quảng Nam#06/12/2004#Nam#01/01/2023
+hv00002#Nguyễn Ích Nghĩa#Thừa Thiên Huế#05/10/2004#Nam#01/01/2023
+hv00004#Nguyễn Thị Thùy Nhung#Nghệ An#10/07/2002#Nữ#01/01/2023
+hv00005#Nguyễn Hồ Vũ#Bình Định#06/12/2000#Nam#09/01/2024
+hv00006#Trần Văn C#Quảng Bình#12/12/1999#Nam#10/01/2024
+hv00007#q#q#12/12/2000#q#10/01/2024
+hv00009#nguyen nghia#Hue#01/01/2004#Nam#10/01/2024

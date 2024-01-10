@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IncompleFactory{
+public class IncompleFactory implements TaoCauHoiDoanVan{
 
 	public CauHoi taoCauHoiTuFile(MucDo mucDo) {
 		String data = "";

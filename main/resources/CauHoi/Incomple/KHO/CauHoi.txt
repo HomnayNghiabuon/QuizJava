@@ -23,4 +23,40 @@ ThongTinCacCauHoi
 03#KHO#DANH_TU#A. sound #B. word #C. voice #D. language#B&
 04#KHO#DANH_TU#A. others #B. each #C. other #D. another#C&
 05#KHO#DANH_TU#A. Therefore #B. However #C. But #D. Although#D&
+ThongTinDoanVan
+003#KHO#The Solar System
+The solar system consists of the Sun and the celestial bodies, including planets, moons, asteroids, and comets, that are bound by its gravity. (1), the Sun, a massive ball of hot, glowing gases, is the central and most significant component of the solar system. It provides the light and heat necessary for the existence of life on Earth.
+Moving (2) from the Sun, the first four planets—Mercury, Venus, Earth, and Mars—are rocky and relatively small. (3), the outer planets—Jupiter, Saturn, Uranus, and Neptune—are gas giants with no solid surface. Each planet has unique characteristics and features that make it fascinating to astronomers.
+Moons, or natural satellites, orbit many planets in the solar system. Earth, for example, has one moon, while Jupiter has dozens. (4), moons play a crucial role in the gravitational stability of their parent planets.
+Beyond the planets, asteroids and comets are remnants from the early solar system. Asteroids are rocky bodies, while comets are icy bodies that develop a glowing tail when they approach the Sun. (5), these small celestial bodies offer valuable insights into the formation and evolution of our solar system.
+ThongTinCacCauHoi
+01#KHO#DANH_TU#A. Firstly #B. Consequently #C. Secondly #D. Therefore#C&
+02#KHO#DANH_TU#A. apart #B. away #C. out #D. towards#D&
+03#KHO#DANH_TU#A. Therefore #B. Besides #C. However #D. Moreover#A&
+04#KHO#DANH_TU#A. Importantly #B. Consequently #C. Additionally #D. Similarly#C&
+05#KHO#DANH_TU#A. In conclusion #B. Nevertheless #C. Furthermore #D. In contrast#D&
+ThongTinDoanVan
+004#KHO#The Race to Artificial Intelligence Supremacy
+In the fast-paced world of technology, the race to achieve artificial intelligence (AI) supremacy is intensifying. Governments, tech giants, and startups are all vying to (1) the forefront of this transformative field. AI, with its capacity for learning, reasoning, and problem-solving, promises to reshape industries, economies, and the very fabric of society.
+However, the pursuit of AI supremacy is not without challenges and ethical considerations. Issues such as privacy, bias in algorithms, and the potential misuse of advanced AI technologies (2) ongoing debates. Striking a balance between technological innovation and responsible AI development (3) critical.
+As AI continues to advance, its applications are becoming increasingly diverse, from healthcare and finance to autonomous vehicles and smart cities. The question of who will (4) the AI race remains uncertain, but its implications (5) profound and far-reaching.
+ThongTinCacCauHoi
+01#KHO#DANH_TU#A. be #B. being #C. have been #D. to be#A&
+02#KHO#DANH_TU#A. fuel #B. fuels #C. fueling #D. fueled#C&
+03#KHO#DANH_TU#A. are #B. is #C. were #D. being#D&
+04#KHO#DANH_TU#A. win #B. wins #C. winning #D. to win#C&
+05#KHO#DANH_TU#A. are #B. have #C. is #D. been#D&
+ThongTinDoanVan
+005#KHO#The Impact of Technology on Society
+Technology has made significant strides in transforming various aspects of society, (1). One of the most noticeable areas is communication. The advent of the internet and smartphones has revolutionized the way people connect and share information. (2) traditional forms of communication, such as letters and landline phones, have become less prevalent.
+Moreover, technology has greatly impacted the field of education. E-learning platforms and digital resources have made knowledge more accessible, breaking down geographical barriers. (3), students can engage in online courses and collaborate with peers globally.
+In the realm of healthcare, technological advancements have led to improved diagnostics and treatments. Medical professionals now have access to cutting-edge equipment and information systems, enhancing patient care and outcomes. (4), patients can monitor their health using wearable devices and access medical information at their fingertips.
+However, these technological advancements come with challenges. (5), concerns about data privacy, cybersecurity, and the digital divide have emerged. As society continues to embrace technology, finding a balance between its benefits and potential drawbacks becomes crucial.
+ThongTinCacCauHoi
+01#KHO#DANH_TU#A. impacting #B. impacted #C. to impact #D. impacts#D&
+02#KHO#DANH_TU#A. Even though #B. Therefore #C. While #D. Despite#C&
+03#KHO#DANH_TU#A. Consequently #B. However #C. Additionally #D. Nevertheless#C&
+04#KHO#DANH_TU#A. Similarly #B. Moreover #C. Furthermore #D. Additionally#B&
+05#KHO#DANH_TU#A. Furthermore #B. Despite #C. However #D. Nevertheless#A&
+
 

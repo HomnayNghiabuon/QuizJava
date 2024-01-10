@@ -61,22 +61,7 @@ public class BaiKiemTra {
 		this.thoiDiemLamBai = thoiDiemLamBai;
 		this.danhSachCauHoi = cauHoi;
 	}
-
-	private void ghiFile(String path, List<StringBuilder> stringBuilders) {
-		try {
-			FileWriter fileWriter = new FileWriter(path);
-			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-			StringBuilder noiDungMoi = new StringBuilder();
-			for (StringBuilder stringBuilder: stringBuilders){
-				noiDungMoi.append(stringBuilder.toString()).append("\n");
-			}
-			bufferedWriter.write(noiDungMoi.toString());
-			bufferedWriter.close();
-			fileWriter.close();
-		} catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
+	
 	private List<StringBuilder> docThongTinTuFile(String path){
 		List<StringBuilder> stringBuilders = new ArrayList<>();
 		try {
@@ -110,27 +95,11 @@ public class BaiKiemTra {
 				break;
             }
         }
-		ghiFile(path,stringBuilders);
+		CauHinh.ghiFile(path,stringBuilders);
     }
-	private void ghiBaiLamVaoFile(){
+	private void ghiBaiDaLamVaoFile(){
 		String path ="src/main/resources/CauHoiDaLam/CauHoiDaLam.txt";
-		String data = "";
-		List<StringBuilder> stringBuilders = new ArrayList<>();
-		try {
-			FileReader fileReader = new FileReader(path);
-			BufferedReader bufferedReader = new BufferedReader(fileReader);
-			String line;
-			int i = 0;
-			while ((line = bufferedReader.readLine()) != null) {
-				stringBuilders.add(new StringBuilder(line));
-			}
-			fileReader.close();
-			bufferedReader.close();
-		} catch (FileNotFoundException e) {
-			throw new RuntimeException(e);
-		} catch (IOException e) {
-			throw new RuntimeException(e);
-		}
+		List<StringBuilder> stringBuilders = CauHinh.layDuLieuTuFile(path);
 		for (StringBuilder stringBuilder: stringBuilders) {
 			if (stringBuilder.toString().substring(0, 7).equals(this.hocVien.getId())) {
 				stringBuilder.append("#").append(this.diem).append("#")
@@ -138,89 +107,212 @@ public class BaiKiemTra {
 				break;
 			}
 		}
-		ghiFile(path,stringBuilders);
+		CauHinh.ghiFile(path,stringBuilders);
+	}
+	private void napCauHoiMultipleChoice(int soCauHoi){
+		CauHoiTracNghiem.setDem(1);
+		TaoCauHoiMultipleChoice multipleChoiseFactory=new MultipleChoiseFactory();
+		List<CauHoi> danhSachCauHoi = new ArrayList<>();
+		danhSachCauHoi=multipleChoiseFactory.taoCacCauHoiTuFile(this.hocVien.getId(), soCauHoi);
+        this.setDanhSachCauHoi(danhSachCauHoi);
+		ghiCacCauHoiDaLamVaoFile(danhSachCauHoi);
 	}
 	private void napCauHoiConversation(MucDo mucDo){
-		ConversationFactory conversationFactory = new ConversationFactory();
+		CauHoiTracNghiem.setDem(1);
+		TaoCauHoiDoanVan conversationFactory = new ConversationFactory();
 		CauHoi cauHoi = conversationFactory.taoCauHoiTuFile(mucDo);
 		List<CauHoi> danhSachCauHoi=new ArrayList<>();
-		if(cauHoi instanceof Conversation) danhSachCauHoi.add(cauHoi);
+		danhSachCauHoi.add(cauHoi);
 		setDanhSachCauHoi(danhSachCauHoi);
-		System.out.println(((Conversation)cauHoi).toString());
 	}
 	private void napCauHoiIncomple(MucDo mucDo){
-		IncompleFactory incompleFactoryFactory = new IncompleFactory();
+		CauHoiTracNghiem.setDem(1);
+		TaoCauHoiDoanVan incompleFactoryFactory = new IncompleFactory();
 		CauHoi cauHoi = incompleFactoryFactory.taoCauHoiTuFile(mucDo);
 		List<CauHoi> danhSachCauHoi=new ArrayList<>();
-		if(cauHoi instanceof Incomple) danhSachCauHoi.add(cauHoi);
+		danhSachCauHoi.add(cauHoi);
 		setDanhSachCauHoi(danhSachCauHoi);
-
-		System.out.println(((Incomple)cauHoi).getDoanVan().getNoiDung());
-		((Incomple)cauHoi).getDanhSachCauHoi().forEach(cauHoiTracNghiem -> {
-			System.out.println(cauHoiTracNghiem.getId());
-			(((CauHoiTracNghiem)cauHoiTracNghiem).getCacPhuongAn()).forEach(p -> System.out.println(p.getNoiDung()));
-		});
 	}
-	public void napCauHoi(){
+	private void hienThiDapAnDung(List<Boolean> list){
+		if(this.danhSachCauHoi.size() == 1){
+			if(this.danhSachCauHoi.get(0) instanceof Incomple){
+				CauHoiTracNghiem.setDem(1);
+				for(int i = 0; i < ((Incomple) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().size(); i++) {
+					System.out.print(((CauHoiTracNghiem) ((Incomple) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().get(i)).toString());
+					System.out.println(list.get(i) == true ? "Đúng!" : "Sai!");
+					((CauHoiTracNghiem) ((Incomple) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().get(i)).hienThiDapAnDung();
+				}
+
+			}
+			if(this.danhSachCauHoi.get(0) instanceof Conversation){
+				MultipleChoice.setDem(1);
+				for(int i = 0; i < ((Conversation) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().size(); i++) {
+					System.out.print(((MultipleChoice) ((Conversation) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().get(i)).toString());
+					System.out.println(list.get(i) == true ? "Đúng!" : "Sai!");
+					((MultipleChoice) ((Conversation) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().get(i)).hienThiDapAnDung();
+				}
+			}
+		}
+		else {
+			MultipleChoice.setDem(1);
+				for(int i = 0; i < this.danhSachCauHoi.size(); i++) {
+					System.out.print(((MultipleChoice) this.danhSachCauHoi.get(i)).toString());
+					System.out.println(list.get(i) == true ? "Đúng!" : "Sai!");
+					((MultipleChoice) this.danhSachCauHoi.get(i)).hienThiDapAnDung();
+				}
+		}
+	}
+	private int chonDapAn(CauHoi cauHoi){
+		char luaChon;
+		while (true){
+			String temp;
+			System.out.print("Nhập câu trả lời: ");
+			temp = CauHinh.scanner.nextLine();
+			if(!(cauHoi instanceof CauHoiTracNghiem)) throw new IllegalArgumentException("Đối tượng cauHoi không phải là CauHoiTracNghiem");
+			if(temp.length()>1 || !Character.isLetter(temp.charAt(0)) || (temp.toUpperCase().charAt(0)-65) >= ((CauHoiTracNghiem)cauHoi).cacPhuongAn.size()){
+				System.out.println("Nhập sai, lại!");
+				continue;
+			}
+			luaChon = temp.toUpperCase().charAt(0);
+			break;
+		}
+		return luaChon - 65;
+	}
+	private boolean chamDiem(CauHoi cauHoi, int luaChon){
+		int soCauHoi = 0;
+		if(this.danhSachCauHoi.size() == 1){
+			if(this.danhSachCauHoi.get(0) instanceof Conversation
+					|| this.danhSachCauHoi.get(0) instanceof Incomple){
+				soCauHoi = ((CauHoiDoanVan) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().size();
+			}
+		}
+		else{
+			soCauHoi = this.danhSachCauHoi.size();
+		}
+		double diemCuaMotCauHoi = 0.0;
+		if(soCauHoi != 0)  diemCuaMotCauHoi= 10.0 / soCauHoi;
+		if(((CauHoiTracNghiem)cauHoi).getCacPhuongAn().get(luaChon).isChinhXac()) {
+			this.diem += diemCuaMotCauHoi;
+			return true;
+		}
+		return false;
+	}
+	private void lamBaiCauHoiTracNghiem(List<Boolean> list, int index, CauHoi cauHoiTracNghiem){
+			System.out.println(cauHoiTracNghiem.toString());
+			int luaChon = chonDapAn(cauHoiTracNghiem);
+			if (chamDiem(cauHoiTracNghiem, luaChon) == true) list.add(index, true);
+			else list.add(index, false);
+
+	}
+
+
+	private void lamBaiCauHoiDoanVan(List<Boolean>list, CauHoi cauHoiDoanVan){
+		int i = 0, n = ((CauHoiDoanVan)cauHoiDoanVan).getDanhSachCauHoi().size();
+		List<Integer> cacCauHoiDaLam = new ArrayList<>();
+		String temp;
+		int soThuTuCuaCau=1;
+		while (i < n){
+			System.out.print("Chọn câu để làm: ");
+			temp = CauHinh.scanner.nextLine();
+			try {
+				soThuTuCuaCau = Integer.parseInt(temp);
+			} catch (NumberFormatException e) {
+				System.out.println("Lỗi chuyển đổi: Chuỗi không hợp lệ để chuyển đổi thành số.");
+				continue;
+			};
+			if(soThuTuCuaCau > n || soThuTuCuaCau < 1){
+				System.out.println("Nhập sai, nhập lại!");
+				continue;
+			}
+			if (cacCauHoiDaLam.contains(soThuTuCuaCau)){
+				System.out.println("Câu này đã làm rồi");
+				continue;
+			}
+			CauHoi cauHoiTracNghiem = ((CauHoiDoanVan)cauHoiDoanVan).getDanhSachCauHoi().get(soThuTuCuaCau-1);
+			((CauHoiTracNghiem)cauHoiTracNghiem).setDem(soThuTuCuaCau);
+			lamBaiCauHoiTracNghiem(list, soThuTuCuaCau-1, cauHoiTracNghiem);
+			cacCauHoiDaLam.add(soThuTuCuaCau);
+			i++;
+		}
+	}
+	private void luuKetQuaVaoFile(){
+		String diem = Double.toString(this.diem);
+		String ngayHienTai = LocalDate.now().format(DateTimeFormatter.ofPattern(CauHinh.TIME_PATTERN));
+		String path = "src/main/resources/ThongTinHocVien/Diem.txt";
+		List<StringBuilder> stringBuilders = CauHinh.layDuLieuTuFile(path);
+		for (StringBuilder stringBuilder: stringBuilders) {
+			if (stringBuilder.toString().substring(0, 7).equals(this.hocVien.getId())) {
+				stringBuilder.append("#").append(this.diem).append("#")
+						.append(this.thoiDiemLamBai.format(DateTimeFormatter.ofPattern(CauHinh.TIME_PATTERN)));
+				break;
+			}
+		}
+		CauHinh.ghiFile(path, stringBuilders);
+	}
+	public void batDauLamBai(){
+		List<Boolean> list = new ArrayList<>();
 		System.out.println("=====CHỌN DẠNG CÂU HỎI=====");
 		System.out.println("1.Multiple Choice");
 		System.out.println("2.Incomple");
 		System.out.println("3.Conversation");
 		System.out.print("Nhập lựa chọn: ");
 		int luachon,luachon2;
-		luachon=CauHinh.scanner.nextInt();
-		switch (luachon){
-			case 1:
-				System.out.println("Nhập số lượng câu hỏi ");
-				int soCauhoi=CauHinh.scanner.nextInt();
-				MultipleChoiseFactory multipleChoiseFactory=new MultipleChoiseFactory();
-				List<CauHoi> danhSachCauHoi = new ArrayList<>();
-				danhSachCauHoi=multipleChoiseFactory.taoCacCauHoiTuFile(this.hocVien.getId(),soCauhoi);
-				this.setDanhSachCauHoi(danhSachCauHoi);
-				ghiCacCauHoiDaLamVaoFile(danhSachCauHoi);
-				break;
-			case 2:
-				System.out.println("Chọn mức độ: ");
-				System.out.println("1.Dễ");
-				System.out.println("2.Trung Bình");
-				System.out.println("3.Khó");
-				luachon2=CauHinh.scanner.nextInt();
-				switch (luachon2){
-					case 1:
-						napCauHoiIncomple(MucDo.DE);
+		do {
+			luachon= Integer.parseInt(CauHinh.scanner.nextLine());
+			switch (luachon) {
+				case 1:
+					System.out.print("Nhập số lượng câu hỏi: ");
+					int soCauhoi = Integer.parseInt(CauHinh.scanner.nextLine());
+					napCauHoiMultipleChoice(soCauhoi);
+					this.thoiDiemLamBai = LocalDate.now();
+					for(int i=0; i < this.danhSachCauHoi.size(); i++){
+						lamBaiCauHoiTracNghiem(list, i, this.danhSachCauHoi.get(i));
+					}
+					break;
+				case 2:
+					System.out.println("Chọn mức độ: ");
+					System.out.println("1.Dễ");
+					System.out.println("2.Trung Bình");
+					System.out.println("3.Khó");
+					while(true){
+						luachon2 = Integer.parseInt(CauHinh.scanner.nextLine());
+						if(luachon2 < 1 || luachon2 > 3) {
+							System.out.println("Lựa chọn không hợp lệ!!");
+							continue;
+						}
+						napCauHoiIncomple(MucDo.values()[luachon2-1]);
+						this.thoiDiemLamBai = LocalDate.now();
 						break;
-					case 2:
-						napCauHoiIncomple(MucDo.TRUNG_BINH);
+					}
+					CauHoi incompe = this.danhSachCauHoi.get(0);
+					System.out.println(incompe.toString());
+					lamBaiCauHoiDoanVan(list, incompe);
+					break;
+				case 3:
+					System.out.println("Chọn mức độ: ");
+					System.out.println("1.Dễ");
+					System.out.println("2.Trung Bình");
+					System.out.println("3.Khó");
+					while(true){
+						luachon2 = Integer.parseInt(CauHinh.scanner.nextLine());
+						if(luachon2 < 1 || luachon2 > 3) {
+							System.out.println("Lựa chọn không hợp lệ!!");
+							continue;
+						}
+						napCauHoiConversation(MucDo.values()[luachon2-1]);
+						this.thoiDiemLamBai = LocalDate.now();
 						break;
-					case 3:
-						napCauHoiIncomple(MucDo.KHO);
-						break;
-					default:
-						System.out.println("Lựa chọn không hợp lệ!");
-				}
-				break;
-			case 3:
-				System.out.println("Chọn mức độ: ");
-				System.out.println("1.Dễ");
-				System.out.println("2.Trung Bình");
-				System.out.println("3.Khó");
-				luachon2=CauHinh.scanner.nextInt();
-				switch (luachon2){
-					case 1:
-						napCauHoiConversation(MucDo.DE);
-						break;
-					case 2:
-						napCauHoiConversation(MucDo.TRUNG_BINH);
-						break;
-					case 3:
-						napCauHoiConversation(MucDo.KHO);
-						break;
-					default:System.out.println("Lựa chọn không hợp lệ!");
+					}
+					CauHoi conversation = this.danhSachCauHoi.get(0);
+					System.out.println(conversation.toString());
+					lamBaiCauHoiDoanVan(list, conversation);
+				default:
+					System.out.println("Lựa chọn không hợp lệ!!");
+			}
 
-				}
-
-		}
+		}while (luachon < 1 || luachon > 3);
+		System.out.println();
+		hienThiDapAnDung(list);
+		luuKetQuaVaoFile();
 	}
-
-
 }

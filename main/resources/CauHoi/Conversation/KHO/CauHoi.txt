@@ -21,5 +21,43 @@ ThongTinCacCauHoi
 01#KHO#DOC_HIEU#Which of the following best expresses the main idea of the passage?#A.Mount Rushmore is a famous American monument. #B.John Gutzen de la Mothe Borglum created Mount Rushmore. #C.Mount Rushmore has sculptures of four United States presidents on it. #D.Mount Rushmore was a huge project filled with numerous obstacles.#A&
 02#KHO#DOC_HIEU#The word "nearly" could best be replaced by which of the following? #A.Barely #B.Closely #C.Almost#B&
 03#KHO#DOC_HIEU#The word "fissure" is closest in meaning to #A.break #B.softness #C.discoloration #D.unevenness#D&
+ThongTinDoanVan
+003#KHO#The Starlight Conspiracy
+"The Starlight Conspiracy" is a thrilling space adventure crafted by Emily Taylor. Captain Aria Stone
+ leads a crew on the starship Celestial Serenity. When they encounter an anomaly in the starlight, their
+ journey takes an unexpected turn. Secrets unfold, friendships are tested, and the fate of the galaxy hangs in the balance.
+ThongTinCacCauHoi
+01#KHO#DOC_HIEU#Who is the author of "The Starlight Conspiracy"?#A. James Thornton #B. Emily Taylor #C. Sarah Miller #D. David Reilly #B&
+02#KHO#DOC_HIEU#What is the name of the starship in the story?#A. Celestial Serenity #B. Galactic Voyager #C. Stellar Phoenix #D. Nebula Nomad #A&
+03#KHO#DOC_HIEU#Who is the captain of the starship in "The Starlight Conspiracy"?#A. Alex Reynolds #B. Aria Stone #C. Lily Smith #D. Maya Johnson #B&
+04#KHO#DOC_HIEU#What happens when the crew encounters an anomaly in the starlight?#A. They find a new planet #B. They go back home #C. Their journey takes an unexpected turn #D. They ignore it #C&
+05#KHO#DOC_HIEU#What hangs in the balance in "The Starlight Conspiracy"?#A. Fate of the crew #B. Fate of the starship #C. Fate of the galaxy #D. Fate of a single planet #C&
+ThongTinDoanVan
+004#KHO#The Enchanted Realm
+"The Enchanted Realm" by Lily Smith transports readers to a magical land where mythical creatures thrive. Young explorer Eleanor embarks on a quest to uncover the secrets of the realm. Along the way, she encounters talking dragons, ancient forests, and a prophecy that will change everything.
+ThongTinCacCauHoi
+01#KHO#DOC_HIEU#Who is the author of "The Enchanted Realm"?#A. James Thornton #B. Emily Taylor #C. Sarah Miller #D. Lily Smith #D&
+02#KHO#DOC_HIEU#What is the protagonist's name in "The Enchanted Realm"?#A. Alex Reynolds #B. Aria Stone #C. Lily Smith #D. Eleanor #D&
+03#KHO#DOC_HIEU#What does Eleanor encounter on her quest?#A. Alien spacecraft #B. Talking dragons #C. Underwater cities #D. Desert oases #B&
+04#KHO#DOC_HIEU#What is the central theme of "The Enchanted Realm"?#A. Technology #B. Magic and mythical creatures #C. Mystery #D. Time travel #B&
+05#KHO#DOC_HIEU#What prophecy does Eleanor discover in the story?#A. A prophecy about war #B. A prophecy about love #C. A prophecy about destiny #D. A prophecy about the end of the world #C&
+ThongTinDoanVan
+005#KHO#The Forgotten Temple
+"The Forgotten Temple" by David Reilly tells the tale of an ancient temple hidden deep in the heart of
+ the jungle. Archaeologist Dr. Maya Johnson embarks on a journey to uncover its mysteries.
+ As she delves into the ruins, she discovers clues that lead to a long-lost civilization and a powerful artifact.
+ThongTinCacCauHoi
+01#KHO#DOC_HIEU#Who is the author of "The Forgotten Temple"?#A. James Thornton #B. Emily Taylor #C. Sarah Miller #D. David Reilly #D&
+02#KHO#DOC_HIEU#What is the profession of the protagonist in "The Forgotten Temple"?#A. Pilot #B. Chef #C. Detective #D. Archaeologist #D&
+03#KHO#DOC_HIEU#Where is the ancient temple located?#A. Underwater #B. In the mountains #C. In the jungle #D. In the desert #C&
+04#KHO#DOC_HIEU#What does Maya Johnson discover in the ruins?#A. Modern technology #B. Clues to a lost civilization #C. Pirate treasure #D. Alien artifacts #B&
+05#KHO#DOC_HIEU#What does the artifact lead to in "The Forgotten Temple"?#A. Another dimension #B. A treasure map #C. A long-lost civilization #D. Maya's dreams #C&
+
+
+
+
+
+
+
 
 

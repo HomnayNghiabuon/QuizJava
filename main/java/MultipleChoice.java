@@ -23,6 +23,9 @@ public class MultipleChoice extends CauHoiTracNghiem {
         this.noiDungCauHoi = noiDungCauHoi;
     }
 
+    public void hienThiKetQuaTraLoi(){
+
+    }
 
     @Override
     public String toString() {

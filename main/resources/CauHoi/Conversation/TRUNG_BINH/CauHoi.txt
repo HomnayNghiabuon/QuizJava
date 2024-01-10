@@ -19,3 +19,43 @@ ThongTinCacCauHoi
 01#TRUNG_BINH#DOC_HIEU#The writer says that in the past ___________.#A.people didn’t invent many things#B.people didn’t want to use wheels#C.most inventions were to do with farming#D.it took time for new ideas to change things#A&
 02#TRUNG_BINH#DOC_HIEU# Why does the writer use the example of the aeroplane?#A.To explain why transport changed in the 20th century.#B.Because he thinks It’s the most important invention in history.#C.  To explain how space travel started.#D.  To show how an invention developed quickly.#D&
 03#TRUNG_BINH#DOC_HIEU#What does the writer say about space solar power?#A.It’s an old idea, but people are only starting to develop it now.#B.It’s a science fiction idea, and nobody really thinks it will work.#C.It’s much easier to build a solar power station in space than on Earth.#D.People tried it in 1941, but they didn’t succeed#A&
+ThongTinDoanVan
+003#TRUNG_BINH#The Lost Treasure
+This is Emily Taylor's latest adventure novel. Emily, an archaeologist, sets off on a
+thrilling journey to find the lost treasure of the ancient city of Atlantis.
+Alongside her loyal companion, a cheeky parrot named Mango, Emily faces numerous
+challenges, including treacherous jungles, hidden traps, and ancient puzzles.
+The Lost Treasure promises an exciting blend of history, mystery, and the unbreakable
+bond between a daring explorer and her feathery friend.
+ThongTinCacCauHoi
+01#TRUNG_BINH#DOC_HIEU#Who is the author of "The Lost Treasure"?#A. Emily Taylor   #B. David Reilly   #C. Joanna Jones   #D. Marcie Jacome   #A&
+02#TRUNG_BINH#DOC_HIEU#What is Emily Taylor's profession?#A. Nurse   #B. Carpenter   #C. Archaeologist   #D. English student   #C&
+03#TRUNG_BINH#DOC_HIEU#What is the name of Emily Taylor's parrot?#A. Mango   #B. Sombat   #C. Maha   #D. Tina   #A&
+04#TRUNG_BINH#DOC_HIEU#In which city does the story of "The Lost Treasure" take place?#A. London   #B. Thailand   #C. Northern Australia   #D. Atlantis#D&
+05#TRUNG_BINH#DOC_HIEU#What is the central theme of "The Lost Treasure"?#A. Working hard   #B. Medical studies   #C. Adventure and treasure hunting   #D. Becoming a film star #C&
+ThongTinDoanVan
+004#TRUNG_BINH#The Melody of Memories
+A heartfelt romance novel by Sarah Miller, "The Melody of Memories," tells the story of
+two musicians, Lily and Alex, who find solace in each other's company during challenging times.
+As they navigate the complexities of life, love, and the power of music, their journey is
+beautifully woven into a tapestry of memories. Join Lily and Alex as they discover the enduring
+melody that binds their hearts.
+ThongTinCacCauHoi
+01#TRUNG_BINH#DOC_HIEU#Who is the author of "The Melody of Memories"?#A. Alex Reynolds #B. Sarah Miller #C. Emily Taylor #D. David Reilly #B&
+02#TRUNG_BINH#DOC_HIEU#What is the central theme of "The Melody of Memories"?#A. Adventure and treasure hunting #B. Identity and choices #C. Romance and the power of music #D. Medical studies #C&
+03#TRUNG_BINH#DOC_HIEU#Who are the main characters in the novel?#A. Lily and Mango #B. Dr. Eleanor Carter and Sombat #C. Lily and Alex #D. Maha and Tina #C&
+04#TRUNG_BINH#DOC_HIEU#What do Lily and Alex find solace in during challenging times?#A. Lost treasure #B. Parallel universes #C. Hard work #D. Music #D&
+05#TRUNG_BINH#DOC_HIEU#What mysteries does Maya aim to uncover?#A. Underwater treasures #B. Amazon rainforest secrets #C. Galactic mysteries #D. Desert oasis tales #B&
+ThongTinDoanVan
+005#TRUNG_BINH#Whispers of the Forest
+"Whispers of the Forest" is an enchanting tale written by Sarah Miller. Set in the heart of
+ the Amazon rainforest, the story follows Maya, a young biologist, on her quest to
+ uncover the secrets of the mystical flora and fauna. As Maya delves deeper into the
+ forest, she encounters ancient spirits, hidden civilizations, and the echoes of a
+ forgotten world.
+ThongTinCacCauHoi
+01#TRUNG_BINH#DOC_HIEU#Who is the author of "Whispers of the Forest"?#A. Alex Reynolds #B. Emily Taylor #C. Sarah Miller #D. David Reilly #C&
+02#TRUNG_BINH#DOC_HIEU#Where does the story of "Whispers of the Forest" take place?#A. London #B. Eldoria #C. Australia #D. The Amazon rainforest #D&
+03#TRUNG_BINH#DOC_HIEU#What is the protagonist's name in the novel?#A. Eleanor #B. Aria #C. Lily #D. Maya #D&
+04#TRUNG_BINH#DOC_HIEU#What profession does Maya have in the story?#A. Chef #B. Biologist #C. Pilot #D. Historian #B&
+05#TRUNG_BINH#DOC_HIEU#What mysteries does Maya aim to uncover?#A. Underwater treasures #B. Amazon rainforest secrets #C. Galactic mysteries #D. Desert oasis tales #B&
