@@ -93,18 +93,7 @@ public class BaiKiemTra {
         }
 		CauHinh.ghiFile(path,stringBuilders);
     }
-	private void ghiBaiDaLamVaoFile(){
-		String path ="src/main/resources/CauHoiDaLam/CauHoiDaLam.txt";
-		List<StringBuilder> stringBuilders = CauHinh.layDuLieuTuFile(path);
-		for (StringBuilder stringBuilder: stringBuilders) {
-			if (stringBuilder.toString().substring(0, 7).equals(this.hocVien.getId())) {
-				stringBuilder.append("#").append(this.diem).append("#")
-						.append(this.thoiDiemLamBai.format(DateTimeFormatter.ofPattern(CauHinh.TIME_PATTERN)));
-				break;
-			}
-		}
-		CauHinh.ghiFile(path,stringBuilders);
-	}
+
 	private void napCauHoiMultipleChoice(int soCauHoi){
 		CauHoiTracNghiem.setDem(1);
 		TaoCauHoiMultipleChoice multipleChoiseFactory=new MultipleChoiseFactory();

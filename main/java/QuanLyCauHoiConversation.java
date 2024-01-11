@@ -26,7 +26,7 @@ public class QuanLyCauHoiConversation extends QuanLyCauHoi{
     public List<CauHoi> docTatCaCauHoi(){
         List<CauHoi> danhSachCauHoi = new ArrayList<>();
         for(MucDo mucDo:MucDo.values()){
-            String path = "src/main/resources/CauHoi/Incomple/"+mucDo+"/CauHoi.txt";
+            String path = "src/main/resources/CauHoi/Conversation/"+mucDo+"/CauHoi.txt";
             String str = CauHinh.layStringTuFile(path);
             String[] mangThongTinCacCauHoi = str.substring(15).split("ThongTinDoanVan");
             for(String thongTinMotCauHoi:mangThongTinCacCauHoi){

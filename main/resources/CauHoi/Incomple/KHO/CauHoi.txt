@@ -1,19 +1,5 @@
 ThongTinDoanVan
-001#DE#There are three sizes......1.... Schnauzer dog.
-The two smaller sizes first ... 2... to England over 50 years ago, but the Giant Schnauzer has not ...3... here very long. The name Giant is a good one because the dogs are 65 to 67.5cm high.
-All the dogs ...4... long hair, which should be cut quite often. Most smaller Schnauzers ...5... grey in colour, ...6... the Giant Schnauzer is usually black.
-Schnauzers come from Germany, where farmers use the dogs to help ...7... with their sheep, and they are also used ...8... the police, because Schnauzer dogs are very intelligent.
-ThongTinCacCauHoi
-01#KHO#DANH_TU#A. with#B. of#C. in#B&
-02#KHO#DANH_TU#A. came #B. come #C. comes#A&
-03#KHO#DANH_TU#A. being #B. be #C. been#A&
-04#KHO#DANH_TU#A. were #B. is #C. are#A&
-05#KHO#DANH_TU#A. or #B. if #C. but#A&
-06#KHO#DANH_TU#A. thum #B. him #C. us#A&
-07#KHO#DANH_TU#A. from #B. by #C. to#A&
-08#KHO#DANH_TU#A. the #B. are #C. any#A&
-ThongTinDoanVan
-002#KHO#ChatGPT is a language model developed by Open AI that uses deep learning techniques to generate human-like responses to text-based prompts or questions. GPT stands for "Generative Pre-Trained Transformer", __(1)__ is a type of neutral network architecture that has been trained on large amount of text data.
+001#KHO#ChatGPT is a language model developed by Open AI that uses deep learning techniques to generate human-like responses to text-based prompts or questions. GPT stands for "Generative Pre-Trained Transformer", __(1)__ is a type of neutral network architecture that has been trained on large amount of text data.
 The GPT model is (2)______ of generating coherent and contextually relevant responses to a wide range of prompts, making it useful for a variety of applications, such as chatbots, language translation, and content creation. As a language model, chat GPT is designed to learn and understand the structure of human_(3)___, enabling it to generate responses that sound like they were written by a human.
 ChatGPT gets it information from a vast corpus of text data that has been preprocessed and used to train the model. This corpus includes a diverse range of sources, such as books, articles, web pages, and (4)______ forms of text-based content that are available on the internet. (5)_______, the responses it generates can incorporate knowledge and information that it has learned from this training data.
 Everyone wonders if his tool will eliminate the majority of jobs and put a huge majority of people out of work. This is what GPT Chat's answered when ask the question.
@@ -24,7 +10,7 @@ ThongTinCacCauHoi
 04#KHO#DANH_TU#A. others #B. each #C. other #D. another#C&
 05#KHO#DANH_TU#A. Therefore #B. However #C. But #D. Although#D&
 ThongTinDoanVan
-003#KHO#The Solar System
+002#KHO#The Solar System
 The solar system consists of the Sun and the celestial bodies, including planets, moons, asteroids, and comets, that are bound by its gravity. (1), the Sun, a massive ball of hot, glowing gases, is the central and most significant component of the solar system. It provides the light and heat necessary for the existence of life on Earth.
 Moving (2) from the Sun, the first four planets—Mercury, Venus, Earth, and Mars—are rocky and relatively small. (3), the outer planets—Jupiter, Saturn, Uranus, and Neptune—are gas giants with no solid surface. Each planet has unique characteristics and features that make it fascinating to astronomers.
 Moons, or natural satellites, orbit many planets in the solar system. Earth, for example, has one moon, while Jupiter has dozens. (4), moons play a crucial role in the gravitational stability of their parent planets.
@@ -36,7 +22,7 @@ ThongTinCacCauHoi
 04#KHO#DANH_TU#A. Importantly #B. Consequently #C. Additionally #D. Similarly#C&
 05#KHO#DANH_TU#A. In conclusion #B. Nevertheless #C. Furthermore #D. In contrast#D&
 ThongTinDoanVan
-004#KHO#The Race to Artificial Intelligence Supremacy
+003#KHO#The Race to Artificial Intelligence Supremacy
 In the fast-paced world of technology, the race to achieve artificial intelligence (AI) supremacy is intensifying. Governments, tech giants, and startups are all vying to (1) the forefront of this transformative field. AI, with its capacity for learning, reasoning, and problem-solving, promises to reshape industries, economies, and the very fabric of society.
 However, the pursuit of AI supremacy is not without challenges and ethical considerations. Issues such as privacy, bias in algorithms, and the potential misuse of advanced AI technologies (2) ongoing debates. Striking a balance between technological innovation and responsible AI development (3) critical.
 As AI continues to advance, its applications are becoming increasingly diverse, from healthcare and finance to autonomous vehicles and smart cities. The question of who will (4) the AI race remains uncertain, but its implications (5) profound and far-reaching.
@@ -47,7 +33,7 @@ ThongTinCacCauHoi
 04#KHO#DANH_TU#A. win #B. wins #C. winning #D. to win#C&
 05#KHO#DANH_TU#A. are #B. have #C. is #D. been#D&
 ThongTinDoanVan
-005#KHO#The Impact of Technology on Society
+004#KHO#The Impact of Technology on Society
 Technology has made significant strides in transforming various aspects of society, (1). One of the most noticeable areas is communication. The advent of the internet and smartphones has revolutionized the way people connect and share information. (2) traditional forms of communication, such as letters and landline phones, have become less prevalent.
 Moreover, technology has greatly impacted the field of education. E-learning platforms and digital resources have made knowledge more accessible, breaking down geographical barriers. (3), students can engage in online courses and collaborate with peers globally.
 In the realm of healthcare, technological advancements have led to improved diagnostics and treatments. Medical professionals now have access to cutting-edge equipment and information systems, enhancing patient care and outcomes. (4), patients can monitor their health using wearable devices and access medical information at their fingertips.

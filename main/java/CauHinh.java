@@ -147,71 +147,7 @@ public class CauHinh {
             System.out.println("Đã xảy ra lỗi khi thêm dòng mới vào tệp: " + e.getMessage());
         }
     }
-    public static void xoaMotDong(String path, String noiDung){
-        try {
-            File inputFile = new File(path);
-            File tempFile = new File("tempFile.txt");
 
-            BufferedReader reader = new BufferedReader(new FileReader(inputFile));
-            BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile));
-
-            String currentLine;
-
-            while ((currentLine = reader.readLine()) != null) {
-                // Kiểm tra xem dòng hiện tại có phải là dòng cần xóa không
-                if (currentLine.contains(noiDung)) {
-                    continue; // Nếu là dòng cần xóa, bỏ qua và không ghi vào tệp tempFile
-                }
-                writer.write(currentLine + System.getProperty("line.separator"));
-            }
-            writer.close();
-            reader.close();
-
-            // Xóa tệp ban đầu
-            if (!inputFile.delete()) {
-                System.out.println("Không thể xóa tệp ban đầu.");
-                return;
-            }
-
-            // Đổi tên tệp tạm thành tên của tệp ban đầu
-            if (!tempFile.renameTo(inputFile)) {
-                System.out.println("Không thể đổi tên tệp tạm.");
-            }
-
-            System.out.println("Đã xóa dòng từ tệp.");
-        } catch (IOException e) {
-            System.out.println("Đã xảy ra lỗi khi xóa dòng từ tệp: " + e.getMessage());
-        }
-
-    }
-    public static void suaMotDong(String path, String id, String noiDungMoi){
-        StringBuilder content = new StringBuilder();
-        try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                if(line.contains(id)) {
-                    line = noiDungMoi;
-                    content.append(line);
-                }
-                else content.append(line).append("\n");
-
-            }
-            bufferedReader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        // Ghi dữ liệu đã sửa vào cùng vị trí của file gốc
-        try {
-            FileWriter fileWriter = new FileWriter(path);
-            fileWriter.write(content.toString());
-            fileWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
     public static boolean isInteger(String input) {
         try {
             Integer.parseInt(input);
@@ -221,6 +157,17 @@ public class CauHinh {
         }
     }
     public static String nhapDuLieu(){
+        String inputData = CauHinh.scanner.nextLine();
+        while (inputData.trim().isEmpty()) {
+            // Kiểm tra xem dữ liệu có trống hay không
+            if (inputData.trim().isEmpty()) {
+                System.out.println("Dữ liệu không được trống và phải là số nguyên. Vui lòng nhập lại: ");
+                inputData=CauHinh.scanner.nextLine();
+            }
+        }
+        return inputData;
+    }
+    public static String nhapDuLieuSo(){
         String inputData = CauHinh.scanner.nextLine();
         while (inputData.trim().isEmpty()||isInteger(inputData)==false) {
             // Kiểm tra xem dữ liệu có trống và có phải số hay không
@@ -242,6 +189,25 @@ public class CauHinh {
     }
     public static String rangBuocNgayThang(String ngayThang){
         SimpleDateFormat dateFormat= new SimpleDateFormat(CauHinh.TIME_PATTERN);
+        dateFormat.setLenient(false);
+
+        boolean isValid = false;
+        Date date = null;
+
+        while (!isValid) {
+            try {
+                // Parse ngày tháng từ chuỗi nhập vào
+                date = dateFormat.parse(ngayThang);
+                isValid = true; // Nếu không có ngoại lệ ParseException, ngày tháng là hợp lệ
+            } catch (ParseException e) {
+                System.out.println("Định dạng ngày tháng không đúng. Vui lòng nhập lại.");
+                ngayThang=CauHinh.scanner.nextLine();
+            }
+        }
+        return ngayThang;
+    }
+    public static String rangBuocThangNam(String ngayThang){
+        SimpleDateFormat dateFormat= new SimpleDateFormat("MM/yyyy");
         dateFormat.setLenient(false);
 
         boolean isValid = false;

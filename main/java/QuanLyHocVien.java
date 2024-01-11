@@ -1,3 +1,4 @@
+
 import kotlin.Pair;
 
 import java.io.BufferedWriter;
@@ -154,6 +155,7 @@ public class QuanLyHocVien implements DangKyHocVien {
 		gioiTinh = CauHinh.scanner.nextLine();
 		System.out.print("Nhập ngày sinh(dd/mm/yyyy): ");
 		ngaySinh = CauHinh.scanner.nextLine();
+		ngaySinh=CauHinh.rangBuocNgayThang(ngaySinh);
 		// Ghi thông tin vào file
 		stringBuilder1 = new StringBuilder(id + "#" + name + "#" + queQuan + "#" +
 				ngaySinh + "#" + gioiTinh + "#" + ngayGianhap );
@@ -201,7 +203,7 @@ public class QuanLyHocVien implements DangKyHocVien {
 				.forEach(hocVien -> System.out.println(hocVien.toString()));
 	}
 	public void traCuuTheoQueQuan(String queQuan){
-		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getHoTen().equalsIgnoreCase(queQuan))
+		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getDiaChi().equalsIgnoreCase(queQuan))
 				.forEach(hocVien -> System.out.println(hocVien.toString()));
 	}
 	public void traCuuTheoNgaySinh(String ngaySinh){

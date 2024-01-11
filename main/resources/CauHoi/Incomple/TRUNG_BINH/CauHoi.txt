@@ -1,19 +1,5 @@
 ThongTinDoanVan
-001#DE#There are three sizes......1.... Schnauzer dog.
-The two smaller sizes first ... 2... to England over 50 years ago, but the Giant Schnauzer has not ...3... here very long. The name Giant is a good one because the dogs are 65 to 67.5cm high.
-All the dogs ...4... long hair, which should be cut quite often. Most smaller Schnauzers ...5... grey in colour, ...6... the Giant Schnauzer is usually black.
-Schnauzers come from Germany, where farmers use the dogs to help ...7... with their sheep, and they are also used ...8... the police, because Schnauzer dogs are very intelligent.
-ThongTinCacCauHoi
-01#TRUNG_BINH#DANH_TU#A. with#B. of#C. in#B&
-02#TRUNG_BINH#DANH_TU#A. came #B. come #C. comes#A&
-03#TRUNG_BINH#DANH_TU#A. being #B. be #C. been#A&
-04#TRUNG_BINH#DANH_TU#A. were #B. is #C. are#A&
-05#TRUNG_BINH#DANH_TU#A. or #B. if #C. but#A&
-06#TRUNG_BINH#DANH_TU#A. thum #B. him #C. us#A&
-07#TRUNG_BINH#DANH_TU#A. from #B. by #C. to#A&
-08#TRUNG_BINH#DANH_TU#A. the #B. are #C. any#A&
-ThongTinDoanVan
-002#TRUNG_BINH#Presenting yourself professionally is key in job interviews __(1)________ it influences people's perception of you and your career. Basic professional etiquette such as dressing appropriately, following proper interview procedures, and demonstrating good behavior, such as smiling and shaking hands, are __(2)_________ essential elements of presenting yourself professionally. One of the most important is Making the Good First Impression. Body language is crucial when it comes to interviews because it speaks about your confidence and shows __(3)_________ you are. Controlling your body language is required because you have to be confident and be professional in an introduction. To show that you are engaged in your interaction, you should start with a firm handshake and __(4)_________ direct eye contact throughout a conversation. Remember to smile too. During the introduction, speak clearly and precisely while acting naturally with body movements. Having good posture is also important. Always keep your posture
+001#TRUNG_BINH#Presenting yourself professionally is key in job interviews __(1)________ it influences people's perception of you and your career. Basic professional etiquette such as dressing appropriately, following proper interview procedures, and demonstrating good behavior, such as smiling and shaking hands, are __(2)_________ essential elements of presenting yourself professionally. One of the most important is Making the Good First Impression. Body language is crucial when it comes to interviews because it speaks about your confidence and shows __(3)_________ you are. Controlling your body language is required because you have to be confident and be professional in an introduction. To show that you are engaged in your interaction, you should start with a firm handshake and __(4)_________ direct eye contact throughout a conversation. Remember to smile too. During the introduction, speak clearly and precisely while acting naturally with body movements. Having good posture is also important. Always keep your posture
 upright, chin up and shoulders down. Avoid crossing your arms as it might seem you are not involved and separated from the conversation. Good posture exudes __(5)__________.
 ThongTinCacCauHoi
 01#TRUNG_BINH#DANH_TU#A. because #B. although #C. but #D. yet#B&
@@ -22,7 +8,7 @@ ThongTinCacCauHoi
 04#TRUNG_BINH#DANH_TU#A. uphold #B. maintain #C. sustain #D. retain#C&
 05#TRUNG_BINH#DANH_TU#A. self-esteem #B. self-assurance #C. self-improvement #D. self-awareness#A&
 ThongTinDoanVan
-003#TRUNG_BINH#The Role of Social Media in Modern Society
+002#TRUNG_BINH#The Role of Social Media in Modern Society
 In contemporary society, social media plays a pivotal role in shaping people's lives and interactions. __(1)__, platforms like Facebook, Instagram, and Twitter have become integral parts of daily routines, providing a space for individuals to connect, share, and express themselves.
 One significant impact of social media is its influence on public opinion and awareness. News and information spread rapidly through these platforms, __(2)__ people stay informed about current events. However, this rapid dissemination of information can also lead to the spread of misinformation and the formation of echo chambers.
 Social media also affects personal relationships and communication. __(3)__, it facilitates communication across geographical distances, allowing friends and family to stay connected. On the flip side, excessive use of social media can contribute to feelings of isolation and negatively impact face-to-face interactions.
@@ -35,7 +21,7 @@ ThongTinCacCauHoi
 04#TRUNG_BINH#DANH_TU#A. effectively #B. inevitably #C. significantly #D. ultimately#C&
 05#TRUNG_BINH#DANH_TU#A. Nevertheless #B. Therefore #C. Although #D. Additionally#D&
 ThongTinDoanVan
-004#TRUNG_BINH#The Pros and Cons of Remote Work
+003#TRUNG_BINH#The Pros and Cons of Remote Work
 With the rise of digital technology, remote work has become a prevalent practice in many industries. __(1)__, it offers flexibility and work-life balance, allowing employees to create their optimal work environments. This flexibility can lead to increased job satisfaction and productivity.
 Another advantage of remote work is the potential for a more diverse workforce. Companies can tap into talent from different geographical locations, __(2)__ fostering innovation and creativity. Additionally, remote work can contribute to reducing traffic congestion and lowering the carbon footprint associated with daily commutes.
 However, remote work also poses challenges. __(3)__, maintaining effective communication and collaboration can be more challenging when team members are not physically present. Moreover, the lack of clear boundaries between work and personal life can lead to burnout and decreased well-being.
@@ -48,7 +34,7 @@ ThongTinCacCauHoi
 04#TRUNG_BINH#DANH_TU#A. Specifically #B. Therefore #C. Additionally #D. Consequently#C&
 05#TRUNG_BINH#DANH_TU#A. Nonetheless #B. Consequently #C. However #D. Therefore#A&
 ThongTinDoanVan
-005#TRUNG_BINH#The Impact of Artificial Intelligence on Employment
+004#TRUNG_BINH#The Impact of Artificial Intelligence on Employment
 The integration of artificial intelligence (AI) into various industries has brought about significant changes in the job market. __(1)__, automation and AI technologies have streamlined processes, increased efficiency, and led to the creation of new job roles. However, these advancements have also raised concerns about the future of employment.
 One positive aspect of AI in the workforce is the potential for improved productivity. __(2)__, repetitive and time-consuming tasks can be automated, allowing human workers to focus on more complex and creative aspects of their jobs. This shift may lead to the development of new skill sets and job opportunities.
 On the flip side, the widespread adoption of AI has led to discussions about job displacement. __(3)__, certain routine tasks may become obsolete, affecting employment in specific industries. This shift requires proactive measures, such as upskilling and reskilling programs, to ensure a smooth transition for the workforce.
