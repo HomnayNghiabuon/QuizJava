@@ -28,7 +28,7 @@ public class ConversationFactory implements TaoCauHoiDoanVan{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		String[] mangData = data.split("ThongTinCacCauHoi");
+		String[] mangData = data.strip().split("ThongTinCacCauHoi");
 		String thongTinDoanVan = mangData[0];
 		String thongTinCacCauHoi = mangData[1];
 		String[] mangThongTinDoanVan = thongTinDoanVan.split("#");

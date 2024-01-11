@@ -1,8 +1,4 @@
 
-
-import com.github.weisj.jsvg.S;
-import org.apache.logging.log4j.util.StringBuilders;
-
 import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -133,13 +129,13 @@ public class BaiKiemTra {
 		danhSachCauHoi.add(cauHoi);
 		setDanhSachCauHoi(danhSachCauHoi);
 	}
-	private void hienThiDapAnDung(List<Boolean> list){
+	private void hienThiDapAnDung(boolean[] list){
 		if(this.danhSachCauHoi.size() == 1){
 			if(this.danhSachCauHoi.get(0) instanceof Incomple){
 				CauHoiTracNghiem.setDem(1);
 				for(int i = 0; i < ((Incomple) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().size(); i++) {
 					System.out.print(((CauHoiTracNghiem) ((Incomple) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().get(i)).toString());
-					System.out.println(list.get(i) == true ? "Đúng!" : "Sai!");
+					System.out.println(list[i] == true ? "Đúng!" : "Sai!");
 					((CauHoiTracNghiem) ((Incomple) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().get(i)).hienThiDapAnDung();
 				}
 
@@ -148,7 +144,7 @@ public class BaiKiemTra {
 				MultipleChoice.setDem(1);
 				for(int i = 0; i < ((Conversation) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().size(); i++) {
 					System.out.print(((MultipleChoice) ((Conversation) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().get(i)).toString());
-					System.out.println(list.get(i) == true ? "Đúng!" : "Sai!");
+					System.out.println(list[i] == true ? "Đúng!" : "Sai!");
 					((MultipleChoice) ((Conversation) this.danhSachCauHoi.get(0)).getDanhSachCauHoi().get(i)).hienThiDapAnDung();
 				}
 			}
@@ -157,7 +153,7 @@ public class BaiKiemTra {
 			MultipleChoice.setDem(1);
 				for(int i = 0; i < this.danhSachCauHoi.size(); i++) {
 					System.out.print(((MultipleChoice) this.danhSachCauHoi.get(i)).toString());
-					System.out.println(list.get(i) == true ? "Đúng!" : "Sai!");
+					System.out.println(list[i] == true ? "Đúng!" : "Sai!");
 					((MultipleChoice) this.danhSachCauHoi.get(i)).hienThiDapAnDung();
 				}
 		}
@@ -197,16 +193,14 @@ public class BaiKiemTra {
 		}
 		return false;
 	}
-	private void lamBaiCauHoiTracNghiem(List<Boolean> list, int index, CauHoi cauHoiTracNghiem){
+	private void lamBaiCauHoiTracNghiem(boolean[] list, int index, CauHoi cauHoiTracNghiem){
 			System.out.println(cauHoiTracNghiem.toString());
 			int luaChon = chonDapAn(cauHoiTracNghiem);
-			if (chamDiem(cauHoiTracNghiem, luaChon) == true) list.add(index, true);
-			else list.add(index, false);
-
+			if (chamDiem(cauHoiTracNghiem, luaChon) == true) list[index] = true;
+			else list[index] = false;
 	}
 
-
-	private void lamBaiCauHoiDoanVan(List<Boolean>list, CauHoi cauHoiDoanVan){
+	private void lamBaiCauHoiDoanVan(boolean[] list, CauHoi cauHoiDoanVan){
 		int i = 0, n = ((CauHoiDoanVan)cauHoiDoanVan).getDanhSachCauHoi().size();
 		List<Integer> cacCauHoiDaLam = new ArrayList<>();
 		String temp;
@@ -250,13 +244,14 @@ public class BaiKiemTra {
 		CauHinh.ghiFile(path, stringBuilders);
 	}
 	public void batDauLamBai(){
-		List<Boolean> list = new ArrayList<>();
 		System.out.println("=====CHỌN DẠNG CÂU HỎI=====");
 		System.out.println("1.Multiple Choice");
 		System.out.println("2.Incomple");
 		System.out.println("3.Conversation");
 		System.out.print("Nhập lựa chọn: ");
 		int luachon,luachon2;
+		boolean[] list = new boolean[1000];
+		this.setDiem(0);
 		do {
 			luachon= Integer.parseInt(CauHinh.scanner.nextLine());
 			switch (luachon) {
@@ -306,10 +301,11 @@ public class BaiKiemTra {
 					CauHoi conversation = this.danhSachCauHoi.get(0);
 					System.out.println(conversation.toString());
 					lamBaiCauHoiDoanVan(list, conversation);
+					break;
 				default:
-					System.out.println("Lựa chọn không hợp lệ!!");
+					System.out.println("Lựa chọn không hợp lệ");
+					break;
 			}
-
 		}while (luachon < 1 || luachon > 3);
 		System.out.println();
 		hienThiDapAnDung(list);

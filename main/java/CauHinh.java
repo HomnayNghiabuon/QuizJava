@@ -14,15 +14,41 @@ public class CauHinh {
     }
     static {
         for(MucDo mucDo:MucDo.values()){
-            int kq;
-            kq = demDong("src/main/resources/CauHoi/Incomple/"+mucDo+"/CauHoi.txt");
+            int kq =0;
+            try {
+                FileReader fileReader = new FileReader("src/main/resources/CauHoi/Incomple/"+mucDo+"/CauHoi.txt");
+                BufferedReader bufferedReader = new BufferedReader(fileReader);
+                String line;
+                while ((line = bufferedReader.readLine()) != null) {
+                    if(line.equals("ThongTinDoanVan")){
+                        kq++;
+                    }
+                }
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
             SO_CAU_HOI_INCOMPLE_THEO_MUC_DO.put(mucDo, kq);
         }
     }
     static {
         for(MucDo mucDo:MucDo.values()){
-            int kq;
-            kq = demDong("src/main/resources/CauHoi/Conversation/"+mucDo+"/CauHoi.txt");
+            int kq =0;
+            try {
+                FileReader fileReader = new FileReader("src/main/resources/CauHoi/Conversation/"+mucDo+"/CauHoi.txt");
+                BufferedReader bufferedReader = new BufferedReader(fileReader);
+                String line;
+                while ((line = bufferedReader.readLine()) != null) {
+                    if(line.equals("ThongTinDoanVan")){
+                        kq++;
+                    }
+                }
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
             SO_CAU_HOI_CONVERSATION_THEO_MUC_DO.put(mucDo, kq);
         }
     }

@@ -10,11 +10,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class QuanLyHocVien implements DangKyHocVien {
 	private List<Pair<ThongTinDangNhapHocVien, HocVien>> danhSachThongTinHocVien = new ArrayList<>();
 
-	private TraCuHocVienStrategy traCuuNguoiHocStragety;
 
 	{
 		this.docTatCaThongTinHocVienTuFile();
@@ -23,9 +23,7 @@ public class QuanLyHocVien implements DangKyHocVien {
 
 	}
 
-	public QuanLyHocVien(TraCuHocVienStrategy traCuuNguoiHocStragety) {
-		this.traCuuNguoiHocStragety = traCuuNguoiHocStragety;
-	}
+
 
 	public List<Pair<ThongTinDangNhapHocVien, HocVien>> getDanhSachThongTinHocVien() {
 		return danhSachThongTinHocVien;
@@ -34,13 +32,21 @@ public class QuanLyHocVien implements DangKyHocVien {
 	public void setDanhSachThongTinHocVien(List<Pair<ThongTinDangNhapHocVien, HocVien>> danhSachThongTinHocVien) {
 		this.danhSachThongTinHocVien = danhSachThongTinHocVien;
 	}
-
-	public TraCuHocVienStrategy getTraCuuNguoiHocStragety() {
-		return traCuuNguoiHocStragety;
+	private List<HocVien> getDanhSachTaiKhoan(){
+		List<HocVien> danhSachTaiKhoan = new ArrayList<>();
+		for(int i = 0; i < this.danhSachThongTinHocVien.size(); i++){
+			danhSachTaiKhoan.add(this.danhSachThongTinHocVien.get(i).getSecond());
+		}
+		return danhSachTaiKhoan;
 	}
 
-	public void setTraCuuNguoiHocStragety(TraCuHocVienStrategy traCuuNguoiHocStragety) {
-		this.traCuuNguoiHocStragety = traCuuNguoiHocStragety;
+
+	private List<HocVien> getDanhSachHocVien(){
+		List<HocVien> danhSachHocVien = new ArrayList<>();
+		for(int i = 0; i < this.danhSachThongTinHocVien.size(); i++){
+			danhSachHocVien.add(this.danhSachThongTinHocVien.get(i).getSecond());
+		}
+		return danhSachHocVien;
 	}
 
 	public List<HocVien> traCuuHocVien(Object thongTin) {
@@ -185,5 +191,21 @@ public class QuanLyHocVien implements DangKyHocVien {
 		}
 		CauHinh.ghiFile(path1, stringBuilders1);
 		CauHinh.ghiFile(path2, stringBuilders2);
+	}
+	public void traCuuTheoHoTen(String hoTen){
+		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getHoTen().equalsIgnoreCase(hoTen))
+				.forEach(hocVien -> System.out.println(hocVien.toString()));
+	}
+	public void traCuuTheoGioiTinh(String gioiTinh){
+		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getGioiTinh().equalsIgnoreCase(gioiTinh))
+				.forEach(hocVien -> System.out.println(hocVien.toString()));
+	}
+	public void traCuuTheoQueQuan(String queQuan){
+		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getHoTen().equalsIgnoreCase(queQuan))
+				.forEach(hocVien -> System.out.println(hocVien.toString()));
+	}
+	public void traCuuTheoNgaySinh(String ngaySinh){
+		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getNgaySinh().format(DateTimeFormatter.ofPattern(CauHinh.TIME_PATTERN)).equals(ngaySinh))
+				.forEach(hocVien -> System.out.println(hocVien.toString()));
 	}
 }

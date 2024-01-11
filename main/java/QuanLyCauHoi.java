@@ -1,27 +1,11 @@
 import java.util.List;
 
-public class QuanLyCauHoi  {
+public abstract class QuanLyCauHoi {
 
-	private QuanLyCauHoi instance;
+	List<CauHoi> danhSachCauHoi;
 
-	public List<CauHoi> timKiemCauHoi() {
-		return null;
+	public QuanLyCauHoi() {
 	}
 
-	public List<CauHoi> timKiemCauHoi(DanhMuc danhMuc) {
-		return null;
-	}
-
-	public List<CauHoi> timKiemCauHoi(MucDo mucDo) {
-		return null;
-	}
-
-	public void xemDanhSachCauHoi() {
-
-	}
-
-	public QuanLyCauHoi getInstance() {
-		return null;
-	}
-
+	public abstract void xemDanhSachCauHoi();
 }

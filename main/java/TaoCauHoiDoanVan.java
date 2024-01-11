@@ -1,5 +1,5 @@
 public interface TaoCauHoiDoanVan {
 
-	public abstract CauHoi taoCauHoiTuFile(MucDo mucDo);
+	public CauHoi taoCauHoiTuFile(MucDo mucDo);
 
 }

@@ -14,6 +14,9 @@ public class ThongTinDangNhapHocVien {
 	{
 		this.trangThaiDangNhap = TrangThaiDangNhap.INVALID;
 	}
+	 public ThongTinDangNhapHocVien(){
+
+	 }
 	public ThongTinDangNhapHocVien(String idHocVien, String tenDangNhap, String matKhau) {
 		this.idHocVien = idHocVien;
 		this.tenDangNhap = tenDangNhap;
