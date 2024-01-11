@@ -1,4 +1,8 @@
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 public class CauHinh {
@@ -208,12 +212,61 @@ public class CauHinh {
             e.printStackTrace();
         }
     }
+    public static boolean isInteger(String input) {
+        try {
+            Integer.parseInt(input);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
+    public static String nhapDuLieu(){
+        String inputData = CauHinh.scanner.nextLine();
+        while (inputData.trim().isEmpty()||isInteger(inputData)==false) {
+            // Kiểm tra xem dữ liệu có trống và có phải số hay không
+            if (inputData.trim().isEmpty()||isInteger(inputData)==false) {
+                System.out.println("Dữ liệu không được trống và phải là số nguyên. Vui lòng nhập lại: ");
+                inputData=CauHinh.scanner.nextLine();
+            }
+        }
+        return inputData;
+    }
     public static void rangbuocNhap(int luaChon, int m,int n){
         if(luaChon<m||luaChon>n) {
             while (luaChon < m || luaChon > n) {
                 System.out.println("Lựa chọn không tồn tại!Nhập lại!");
-                luaChon = Integer.parseInt(CauHinh.scanner.nextLine());
+                luaChon = Integer.parseInt(CauHinh.nhapDuLieu());
             }
         }
+
+    }
+    public static String rangBuocNgayThang(String ngayThang){
+        SimpleDateFormat dateFormat= new SimpleDateFormat(CauHinh.TIME_PATTERN);
+        dateFormat.setLenient(false);
+
+        boolean isValid = false;
+        Date date = null;
+
+        while (!isValid) {
+            try {
+                // Parse ngày tháng từ chuỗi nhập vào
+                date = dateFormat.parse(ngayThang);
+                isValid = true; // Nếu không có ngoại lệ ParseException, ngày tháng là hợp lệ
+            } catch (ParseException e) {
+                System.out.println("Định dạng ngày tháng không đúng. Vui lòng nhập lại.");
+                ngayThang=CauHinh.scanner.nextLine();
+            }
+        }
+        return ngayThang;
+    }
+    public static String layStringTuFile(String path){
+        String str;
+       try{
+           Path fileName = Path.of(path);
+           str = Files.readString(fileName);
+       } catch (IOException e) {
+           throw new RuntimeException(e);
+       }
+       return str;
     }
 }

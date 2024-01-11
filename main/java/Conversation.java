@@ -9,6 +9,7 @@ public class Conversation extends CauHoiDoanVan {
 	}
 
 	public String toString() {
+		CauHoiTracNghiem.setDem(1);
 		String temp = "";
 		for(CauHoi cauHoi:this.danhSachCauHoi){
 			temp += ((MultipleChoice)cauHoi).toString();
