@@ -1,0 +1,150 @@
+0001#DE#GIOI_TU#……….you want to receive additional information regarding the services we offer, please log onto our website at www.healthclub.com today.#A. If#B. For#C. Despite#D. Whether#A
+0002#KHO#TRANG_TU#Sandy Duncan was handpicked by the general manager to head the next project because of ………experience in this field.#A. her#B. hers#C. herself#D. she#C
+0003#DE#DONG_TU#The changes made in the working conditions at our company resulted in remarkable improvements in all aspects of our business and …….. more so in the morale of our employees.#A. all	#B. any#C. even#D. although#D
+0004#DE#DONG_TU#The young girl has great experience of nursing. She has worked as a hospital volunteer for years.#A. Before she worked as a hospital volunteer for years, the young girl has great experience of nursing.#B. Much as she has worked as a hospital volunteer for years, the young girl has great experience of nursing.#C. Having worked as a hospital volunteer for years, the young girl has great experience of nursing.#D. With great experience of nursing, the young girl has worked as a hospital volunteer for years.#C
+0005#TRUNG_BINH#TINH_TU#Al's doctor insists______ for a few days #A. that he is resting  #B. his resting  #C. him to rest  #D. that he rest#D
+0006#DE#DONG_TU#I don't like iced tea, and ______ #A. she doesn't too    #B. either doesn't she  #C. neither does she    #D. she doesn't neither#C
+0007#KHO#DONG_TU#We wish that you_______ such a lot of work, because we know that you would haveenjoyed the party. #A. hadn't had  #B. hadn't  #C. didn't have had  #D. hadn't have#A
+0008#DE#DONG_TU#Since your roommate is visiting her family this weekend, _______ you like to havedinner with us tonight. #A. will  #B. won't  #C. do  #D. wouldn't#D
+0009#KHO#DONG_TU#Please______ photocopies of documents. #A. not to submit  #B. do not submit  #C. no submit  #D. not submit#B
+0010#TRUNG_BINH#DONG_TU#I __________ bacon and eggs every morning. #A. am used to eat  #B. used to eating  #C. am used to eating #D. use to eat#C
+0011#KHO#DONG_TU#The team really looks good tonight because the coach had them________ every nightthis week.  #A. practice  #B. practiced  #C. to practice  #D. the practice#A
+0012#TRUNG_BINH#DONG_TU#Would you mind _________ please? #A. to answer the telephone  #B. answering the telephone #C. answer the telephone  #D. to the telephone answering#B
+0013#DE#DONG_TU#You ________ your seats today if you want to go to the game. #A. had better to reserve  #B. had to better reserve #C. had better reserve   #D. had to reserve better#C
+0014#KHO#DONG_TU#If it___________ so late we could have coffee. #A. wasn't   #B. isn't  #C. weren't   #D. not be#C
+0015#KHO#DONG_TU#Your sister used to visit you quite often________? #A. didn't she  #B. doesn't she  #C. wouldn't she  #D. hadn't she#A
+0016#TRUNG_BINH#DONG_TU#If Bod _______ with us, he would have had a good time. #A. would come    #B. would have come #C. had come    #D. came#C
+0017#DE#DANH_TU#A mail offering suggestions is a ______.#A. proposal mail#B. propose mail#C. mail proposal#D. mail propose#D
+0018#KHO#DANH_TU#Harry drinks a lot. He is such a big ....................... (DRINK)#A. drinker #B. drinkable #C. drinking #D. drinkability#A
+0019#DE#DANH_TU#Come on, let’s watch them arrive in their smartest suits and shades for Louis Tomlinson’s mum’s ............ (WED.#A. wedded #B. wedding #C. weddings #D. wed#A
+0020#TRUNG_BINH#DANH_TU#One Direction ..................(DANCE) made miracle (RECOVER)..............from horrific accident with help from loyal dogs.#A. dancing- discovery #B. dance- discovery #C. dancer- recovery #D. dancers-discovery#C
+0021#DE#DANH_TU#They have just confirmed follow-up movie after This Is Us missed out on Oscar (NOMINATE)...........#A. nomination #B. nominating #C. nominitive #D. nominee#B
+0022#KHO#DANH_TU# I know you’re proud of your achievements, but let’s at least keep some (HUMBLE)..........#A. humiliation #B. humility #C. humbility #D. humblation#A
+0023#TRUNG_BINH#DANH_TU# (HATE)........... are gonna hate, potatoes’re gonna potate, I already ate.#A. haters #B. hating #C. hatred #D. hateful#B
+0024#DE#DANH_TU#I honestly don’t know what to do right now. Could you give me some (SERENE).......... please?#A. serenade #B. serenity #C. serendipity #D. serendipity#D
+0025#DE#DANH_TU# Don’t look at me like that. I know I’m a (WEIRD............#A. weirdness #B. weird #C. weirdliness #D. weirdo#A
+0026#KHO#DANH_TU#What is your biggest (WEAK).............?#A. weakenning #B. weaken #C. weakness #D. weakfish#B
+0027#TRUNG_BINH#DANH_TU#And what are some of your (STRONG)..............?#A. strengthen #B. strengths #C. strongly #D. strongly#C
+0028#DE#DANH_TU# I so hate researching. What’s the point of being a (RESEARCH)......... anyways?#A. research #B. searcher #C. researcher #D. researching#D
+0029#KHO#DANH_TU#I’d love to be a (LOSE)............ What’s the point of being a (WIN)......... anyways?#A. losers-winners #B. loser-winner #C. lost- win #D. loss-winner#B
+0030#TRUNG_BINH#DANH_TU#This exercise is a bit ridiculous. Whatever, I don’t care, I’m not in the right state of mind right now. I’m not trying to hide my (ADDICT)............ to that boy band, you know.#A. addictive #B. addicted #C. addiction #D. addicting#C
+0031#TRUNG_BINH#TINH_TU#Her new dress was so ___________ that everyone complimented her.#A. Beautiful#B. Dance#C. Quickly#D. Running#A
+0032#TRUNG_BINH#TINH_TU#The ___________ kitten played joyfully with a ball of yarn.#A. Sleep#B. Quickly#C. Playful#D. Running#C
+0033#TRUNG_BINH#TINH_TU#The ___________ mountain range offered breathtaking views.#A. Swim#B. Beautiful#C. Quickly#D. Jumped#B
+0034#TRUNG_BINH#TINH_TU#His ___________ speech moved everyone in the audience.#A. Speak#B. Quickly#C. Inspiring#D. Jumped#C
+0035#TRUNG_BINH#TINH_TU#The ___________ flowers in the garden attracted many butterflies.#A. Fly#B. Quickly#C. Colorful#D. Jumped#C
+0036#TRUNG_BINH#TINH_TU#The ___________ sunset painted the sky in shades of orange and pink.#A. Swim#B. Beautiful#C. Quickly#D. Jumped#B
+0037#TRUNG_BINH#TINH_TU#The ___________ puppy wagged its tail with excitement.#A. Sleep#B. Quickly#C. Playful#D. Running#C
+0038#TRUNG_BINH#TINH_TU#Her ___________ smile brightened up the room.#A. Speak#B. Quickly#C. Inspiring#D. Radiant#D
+0039#TRUNG_BINH#TINH_TU#The ___________ student always had thoughtful questions in class.#A. Lazy#B. Curious#C. Quickly#D. Running#B
+0040#TRUNG_BINH#TINH_TU#The ___________ mountain path required experienced hikers.#A. Easy#B. Treacherous#C. Quickly#D. Jumped#B
+0041#TRUNG_BINH#TINH_TU#His ___________ behavior made it difficult for others to trust him.#A. Honest#B. Deceptive#C. Quickly#D. Running#B
+0042#TRUNG_BINH#TINH_TU#The ___________ river flowed silently through the peaceful valley.#A. Roaring#B. Tranquil#C. Quickly#D. Jumped#B
+0043#TRUNG_BINH#TINH_TU#The ___________ movie kept the audience on the edge of their seats.#A. Boring#B. Exciting#C. Quickly#D. Running#B
+0044#TRUNG_BINH#TINH_TU#The ___________ flowers bloomed in the garden, releasing a sweet fragrance.#A. Wilted#B. Fragrant#C. Quickly#D. Jumped#B
+0045#TRUNG_BINH#TINH_TU#The ___________ child eagerly opened the gift box.#A. Grateful#B. Excited#C. Quickly#D. Running#B
+0046#TRUNG_BINH#TINH_TU#The ___________ sky was adorned with stars, creating a magical atmosphere.#A. Cloudy#B. Starry#C. Quickly#D. Jumped#B
+0047#TRUNG_BINH#TINH_TU#The ___________ elephant sprayed water to cool down on a hot day.#A. Small#B. Enormous#C. Quickly#D. Running#B
+0048#TRUNG_BINH#TINH_TU#His ___________ response to the criticism showed his maturity.#A. Defensive#B. Accepting#C. Quickly#D. Jumped#B
+0049#TRUNG_BINH#TINH_TU#The ___________ kitten cautiously approached the unfamiliar object.#A. Fearless#B. Curious#C. Quickly#D. Running#B
+0050#TRUNG_BINH#TINH_TU#The ___________ wind rustled through the leaves of the ancient trees.#A. Still#B. Gentle#C. Quickly#D. Jumped#B
+0051#TRUNG_BINH#TINH_TU#Her ___________ voice captured the hearts of the audience.#A. Powerful#B. Weak#C. Quickly#D. Running#A
+0052#TRUNG_BINH#TINH_TU#The ___________ snow covered the landscape in a pristine white blanket.#A. Melted#B. Fresh#C. Quickly#D. Jumped#B
+0053#TRUNG_BINH#TINH_TU#The ___________ chef prepared a delicious meal with exquisite flavors.#A. Inexperienced#B. Skilled#C. Quickly#D. Running#B
+0054#TRUNG_BINH#TINH_TU#The ___________ marathon tested the endurance of the participants.#A. Short#B. Challenging#C. Quickly#D. Jumped#B
+0055#TRUNG_BINH#TINH_TU#The ___________ garden was filled with a variety of colorful flowers.#A. Dull#B. Vibrant#C. Quickly#D. Running#B
+0056#TRUNG_BINH#TINH_TU#His ___________ decision had a significant impact on the outcome.#A. Thoughtful#B. Hasty#C. Quickly#D. Jumped#B
+0057#TRUNG_BINH#TINH_TU#The ___________ fire warmed the chilly room.#A. Weak#B. Cozy#C. Quickly#D. Running#B
+0058#TRUNG_BINH#TINH_TU#The ___________ horse gracefully galloped across the open field.#A. Clumsy#B. Elegant#C. Quickly#D. Jumped#B
+0059#TRUNG_BINH#TINH_TU#The ___________ scientist made groundbreaking discoveries in the field of physics.#A. Ordinary#B. Brilliant#C. Quickly#D. Running#B
+0060#TRUNG_BINH#TINH_TU#The ___________ music filled the concert hall with emotion.#A. Dissonant#B. Melodic#C. Quickly#D. Jumped#B
+0061#TRUNG_BINH#TINH_TU#The ___________ ocean waves crashed against the rocky shore.#A. Serene#B. Turbulent#C. Quickly#D. Running#B
+0062#TRUNG_BINH#TINH_TU#The ___________ cat slept peacefully in the sunbeam.#A. Restless#B. Content#C. Quickly#D. Jumped#B
+0063#TRUNG_BINH#TINH_TU#The ___________ student diligently studied for the upcoming exam.#A. Lazy#B. Hardworking#C. Quickly#D. Running#B
+0064#TRUNG_BINH#TINH_TU#The ___________ castle stood proudly on the hill, overlooking the village.#A. Crumbling#B. Majestic#C. Quickly#D. Jumped#B
+0065#TRUNG_BINH#TINH_TU#The ___________ butterfly gracefully fluttered from flower to flower.#A. Clumsy#B. Elegant#C. Quickly#D. Running#B
+0066#TRUNG_BINH#TINH_TU#The ___________ coffee awakened her senses with its rich aroma.#A. Bland#B. Invigorating#C. Quickly#D. Jumped#B
+0067#TRUNG_BINH#TINH_TU#The ___________ mountain path required experienced hikers.#A. Easy#B. Treacherous#C. Quickly#D. Jumped#B
+0068#TRUNG_BINH#TINH_TU#The ___________ river flowed silently through the peaceful valley.#A. Roaring#B. Tranquil#C. Quickly#D. Jumped#B
+0069#TRUNG_BINH#TINH_TU#The ___________ movie kept the audience on the edge of their seats.#A. Boring#B. Exciting#C. Quickly#D. Running#B
+0070#TRUNG_BINH#TINH_TU#The ___________ flowers in the garden attracted many butterflies.#A. Fly#B. Quickly#C. Colorful#D. Jumped#C
+0071#TRUNG_BINH#TINH_TU#The ___________ sky was adorned with stars, creating a magical atmosphere.#A. Cloudy#B. Starry#C. Quickly#D. Jumped#B
+0072#TRUNG_BINH#TINH_TU#The ___________ elephant sprayed water to cool down on a hot day.#A. Small#B. Enormous#C. Quickly#D. Running#B
+0073#TRUNG_BINH#TINH_TU#His ___________ response to the criticism showed his maturity.#A. Defensive#B. Accepting#C. Quickly#D. Jumped#B
+0074#TRUNG_BINH#TINH_TU#The ___________ kitten cautiously approached the unfamiliar object.#A. Fearless#B. Curious#C. Quickly#D. Running#B
+0075#DE#TRANG_TU#He looked at her ___________ and smiled warmly.#A. Quick#B. Beautiful#C. Happily#D. Running#C
+0076#DE#TRANG_TU#The children played ___________ in the park, enjoying the sunny day.#A. Dance#B. Quickly#C. Happily#D. Jumped#C
+0077#DE#TRANG_TU#The magician performed his tricks ___________ to amaze the audience.#A. Sleep#B. Quickly#C. Skillfully#D. Running#C
+0078#DE#TRANG_TU#She answered the questions ___________ during the interview.#A. Speak#B. Quickly#C. Confidently#D. Jumped#C
+0079#DE#TRANG_TU#The butterflies flew ___________ around the blooming flowers.#A. Fly#B. Quickly#C. Gracefully#D. Jumped#C
+0080#DE#DANH_TU#Choose a ___________ location for our picnic.#A. Tallest#B. Running#C. Quiet#D. Jumped#C
+0081#DE#DANH_TU#The ___________ cat napped lazily in the sunshine.#A. Happy#B. Quickly#C. Lazy#D. Jumped#C
+0082#DE#DANH_TU#We need some ___________ vegetables for the salad.#A. Quickly#B. Green#C. Strong#D. Jumped#B
+0083#DE#DANH_TU#The ___________ horse galloped across the open field.#A. Sleepy#B. Dance#C. Swift#D. Running#C
+0084#DE#DANH_TU#She bought a ___________ pair of shoes for the party.#A. Tallest#B. Running#C. Stylish#D. Jumped#C
+0085#DE#TRANG_TU#He spoke ___________ during the presentation to keep the audience engaged.#A. Quick#B. Beautiful#C. Clearly#D. Running#C
+0086#DE#TRANG_TU#The leaves rustled ___________ in the gentle breeze.#A. Dance#B. Quickly#C. Softly#D. Jumped#C
+0087#DE#TRANG_TU#The chef prepared the dish ___________ to ensure its perfection.#A. Sleep#B. Quickly#C. Meticulously#D. Running#C
+0088#DE#TRANG_TU#The children played ___________ with their new toys.#A. Speak#B. Quickly#C. Joyfully#D. Jumped#C
+0089#KHO#GIOI_TU#She is good ___________ playing the piano.#A. At#B. In#C. On#D. By#A
+0090#KHO#GIOI_TU#They went ___________ the forest to explore the wildlife.#A. In#B. At#C. To#D. By#C
+0091#KHO#GIOI_TU#He is interested ___________ art and music.#A. At#B. In#C. On#D. By#B
+0092#KHO#GIOI_TU#The cat is hiding ___________ the bed.#A. At#B. Behind#C. On#D. By#B
+0093#KHO#GIOI_TU#She is waiting ___________ the bus stop.#A. At#B. In#C. On#D. By#A
+0094#KHO#GIOI_TU#The keys are ___________ the table.#A. In#B. On#C. At#D. By#B
+0095#KHO#GIOI_TU#He arrived ___________ the airport on time.#A. At#B. On#C. To#D. By#A
+0096#KHO#GIOI_TU#The book is ___________ the shelf.#A. In#B. At#C. On#D. By#C
+0097#KHO#GIOI_TU#She is sitting ___________ the desk, studying.#A. On#B. In#C. At#D. By#C
+0098#KHO#GIOI_TU#The cat jumped ___________ the window.#A. In#B. On#C. To#D. By#B
+0099#KHO#DONG_TU#She always ___________ up early in the morning.#A. Wake#B. Woke#C. Wakes#D. Waken#C
+0100#KHO#DONG_TU#She always ___________ up early in the morning.#A. Wake#B. Woke#C. Wakes#D. Waken#C
+0101#KHO#DONG_TU#He ___________ a new bicycle last week.#A. Buy#B. Bought#C. Buys#D. Buying#B
+0102#KHO#DONG_TU#They ___________ the movie last night.#A. Watch#B. Watching#C. Watched#D. Watches#C
+0103#KHO#DONG_TU#I ___________ my keys at home.#A. Forgets#B. Forgot#C. Forgetting#D. Forget#B
+0104#KHO#DONG_TU#She ___________ her homework every day.#A. Finishes#B. Finished#C. Finishing#D. Finish#A
+0105#KHO#DONG_TU#They usually ___________ to the beach in the summer.#A. Goes#B. Going#C. Go#D. Went#C
+0106#KHO#DONG_TU#He ___________ a new job last month.#A. Finding#B. Find#C. Finds#D. Found#D
+0107#KHO#DONG_TU#We ___________ English every day.#A. Study#B. Studied#C. Studying#D. Studies#A
+0108#KHO#DONG_TU#The cat ___________ the mouse in the garden.#A. Catch#B. Catches#C. Catched#D. Catching#B
+0109#KHO#DONG_TU#She ___________ her bike to school every day.#A. Rides#B. Rode#C. Riding#D. Ride#A
+0110#KHO#DONG_TU#They ___________ a delicious dinner last night.#A. Eating#B. Ate#C. Eat#D. Eats#B
+0111#KHO#DONG_TU#I ___________ my friend at the library yesterday.#A. Meet#B. Meets#C. Meeting#D. Met#D
+0112#KHO#DONG_TU#We ___________ our lunch at the new restaurant.#A. Had#B. Having#C. Have#D. Has#A
+0113#KHO#DONG_TU#She ___________ a beautiful song last night.#A. Sings#B. Sing#C. Singing#D. Sang#D
+0114#KHO#DONG_TU#They ___________ a lot of interesting places during their trip.#A. Visit#B. Visits#C. Visited#D. Visiting#C
+0115#KHO#DONG_TU#He ___________ the news on TV every evening.#A. Watching#B. Watched#C. Watches#D. Watch#C
+0116#KHO#DONG_TU#She ___________ a letter to her friend yesterday.#A. Writes#B. Wrote#C. Writing#D. Write#B
+0117#KHO#DONG_TU#They ___________ a delicious cake for the party.#A. Bake#B. Baked#C. Baking#D. Bakes#B
+0118#KHO#DONG_TU#I ___________ my computer to work every day.#A. Bring#B. Bringing#C. Brought#D. Brings#D
+0119#KHO#DONG_TU#She ___________ a funny story to make everyone laugh.#A. Tells#B. Telling#C. Told#D. Tell#C
+0120#KHO#DANH_TU#The ___________ of the company is responsible for the new project.#A. Worker#B. Boss#C. Manager#D. Employee#C
+0121#KHO#DANH_TU#I have a ___________ to complete before the deadline.#A. Task#B. Assignment#C. Job#D. Mission#A
+0122#KHO#DANH_TU#The ___________ of the book was fascinating and kept me hooked.#A. Title#B. Cover#C. Plot#D. Chapter#C
+0123#KHO#DANH_TU#Her dream is to become a famous ___________.#A. Music#B. Musician#C. Musical#D. Musicology#B
+0124#KHO#DANH_TU#The ___________ of the university gave a speech at the graduation ceremony.#A. Principal#B. Professor#C. Chancellor#D. Dean#C
+0125#KHO#DANH_TU#My sister is a talented ___________ and has won several awards.#A. Painting#B. Painter#C. Paint#D. Paintwork#B
+0126#KHO#DANH_TU#The ___________ of the film is known for his exceptional acting skills.#A. Director#B. Actor#C. Producer#D. Screenwriter#B
+0127#KHO#DANH_TU#The ___________ of the restaurant greeted us warmly.#A. Chef#B. Waiter#C. Owner#D. Manager#D
+0128#KHO#DANH_TU#In ancient times, the ___________ ruled over vast territories.#A. Emperor#B. King#C. Queen#D. Pharaoh#A
+0129#KHO#DANH_TU#She received a promotion and is now the ___________ of the department.#A. Supervisor#B. Manager#C. Executive#D. Head#D
+0130#KHO#DANH_TU#The ___________ of the play was filled with unexpected twists and turns.#A. Script#B. Dialogue#C. Plot#D. Scene#C
+0131#KHO#DANH_TU#The ___________ of the company made a groundbreaking announcement.#A. CEO#B. President#C. Founder#D. Executive#A
+0132#KHO#DANH_TU#The ___________ of the novel captivated readers from the first page.#A. Protagonist#B. Antagonist#C. Plot#D. Narrative#A
+0133#KHO#DANH_TU#The ___________ of the concert received a standing ovation.#A. Conductor#B. Musician#C. Composer#D. Soloist#A
+0134#KHO#DANH_TU#The ___________ of the museum gave us a guided tour.#A. Curator#B. Guide#C. Custodian#D. Historian#A
+0135#KHO#DANH_TU#She aspires to become a successful ___________ in the fashion industry.#A. Designer#B. Model#C. Stylist#D. Photographer#A
+0136#KHO#DANH_TU#The ___________ of the research project presented their findings at the conference.#A. Investigator#B. Researcher#C. Scientist#D. Scholar#B
+0137#KHO#DANH_TU#The ___________ of the school was known for promoting innovation in education.#A. Principal#B. Teacher#C. Administrator#D. Educator#A
+0138#KHO#DANH_TU#The ___________ of the orchestra led a brilliant performance.#A. Musician#B. Conductor#C. Composer#D. Violinist#B
+0139#KHO#DANH_TU#The ___________ of the novel explored themes of identity and self-discovery.#A. Author#B. Narrator#C. Writer#D. Novelist#A
+0140#KHO#DANH_TU#The ___________ of the novel explored themes of identity and self-discovery.#A. Author#B.
+0141#DE#TRANG_TU#The weather was ___________ than expected.#A. Hotter#B. Hottest#C. Hot#D. Heat#A
+0142#DE#TRANG_TU#She performed ___________ in the exam.#A. Good#B. Better#C. Best#D. Well#A
+0143#DE#TRANG_TU#The movie was ___________ I had anticipated.#A. Good#B. Better#C. Best#D. Well#B
+0144#DE#TRANG_TU#He is ___________ a fast runner.#A. Enough#B. So#C. Very#D. Such#D
+0145#DE#TRANG_TU#This dress is ___________ than the one I tried on yesterday.#A. More beautiful#B. Most beautiful#C. Beautifuler#D. Beautiful#A
+0146#DE#TRANG_TU#She sings ___________ than her sister.#A. Good#B. Better#C. Best#D. Well#B
+0147#DE#TRANG_TU#The students completed the assignment ___________.#A. Easy#B. Easier#C. Easiest#D. Easily#D
+0148#DE#TRANG_TU#I can play the guitar ___________ now than last year.#A. Good#B. Better#C. Best#D. Well#B
+0149#DE#TRANG_TU#The coffee was ___________ hot to drink.#A. Too#B. Very#C. So#D. Enough#A
+0150#DE#TRANG_TU#She finished the puzzle ___________ than I did.#A. Quick#B. Quickly#C. Quicker#D. Quickest#C
