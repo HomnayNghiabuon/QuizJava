@@ -1,20 +1,17 @@
-
 import kotlin.Pair;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class QuanLyHocVien implements DangKyHocVien {
 	private List<Pair<ThongTinDangNhapHocVien, HocVien>> danhSachThongTinHocVien = new ArrayList<>();
+
+	private TraCuuHocVienStrategy traCuuHocVienStrategy;
 
 
 	{
@@ -33,6 +30,15 @@ public class QuanLyHocVien implements DangKyHocVien {
 	public void setDanhSachThongTinHocVien(List<Pair<ThongTinDangNhapHocVien, HocVien>> danhSachThongTinHocVien) {
 		this.danhSachThongTinHocVien = danhSachThongTinHocVien;
 	}
+
+	public TraCuuHocVienStrategy getTraCuuHocVienStrategy() {
+		return traCuuHocVienStrategy;
+	}
+
+	public void setTraCuuHocVienStrategy(TraCuuHocVienStrategy traCuuHocVienStrategy) {
+		this.traCuuHocVienStrategy = traCuuHocVienStrategy;
+	}
+
 	private List<HocVien> getDanhSachTaiKhoan(){
 		List<HocVien> danhSachTaiKhoan = new ArrayList<>();
 		for(int i = 0; i < this.danhSachThongTinHocVien.size(); i++){
@@ -196,20 +202,36 @@ public class QuanLyHocVien implements DangKyHocVien {
 		CauHinh.ghiFile(path1, stringBuilders1);
 		CauHinh.ghiFile(path2, stringBuilders2);
 	}
-	public void traCuuTheoHoTen(String hoTen){
-		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getHoTen().equalsIgnoreCase(hoTen))
-				.forEach(hocVien -> System.out.println(hocVien.toString()));
+//	public void traCuuTheoHoTen(String hoTen){
+//		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getHoTen().equalsIgnoreCase(hoTen))
+//				.forEach(hocVien -> System.out.println(hocVien.toString()));
+//	}
+//	public void traCuuTheoGioiTinh(String gioiTinh){
+//		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getGioiTinh().equalsIgnoreCase(gioiTinh))
+//				.forEach(hocVien -> System.out.println(hocVien.toString()));
+//	}
+//	public void traCuuTheoQueQuan(String queQuan){
+//		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getDiaChi().equalsIgnoreCase(queQuan))
+//				.forEach(hocVien -> System.out.println(hocVien.toString()));
+//	}
+//	public void traCuuTheoNgaySinh(String ngaySinh){
+//		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getNgaySinh().format(DateTimeFormatter.ofPattern(CauHinh.TIME_PATTERN)).equals(ngaySinh))
+//				.forEach(hocVien -> System.out.println(hocVien.toString()));
+//	}
+	public List<HocVien> traCuuTheoThongTin(TraCuuHocVienStrategy traCuuHocVienStrategy, Object thongTin){
+		this.setTraCuuHocVienStrategy(traCuuHocVienStrategy);
+		return traCuuHocVienStrategy.traCuuHocVienTheoThongTin(this.getDanhSachHocVien(), thongTin);
 	}
-	public void traCuuTheoGioiTinh(String gioiTinh){
-		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getGioiTinh().equalsIgnoreCase(gioiTinh))
-				.forEach(hocVien -> System.out.println(hocVien.toString()));
-	}
-	public void traCuuTheoQueQuan(String queQuan){
-		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getDiaChi().equalsIgnoreCase(queQuan))
-				.forEach(hocVien -> System.out.println(hocVien.toString()));
-	}
-	public void traCuuTheoNgaySinh(String ngaySinh){
-		this.getDanhSachHocVien().stream().filter(hocVien -> hocVien.getNgaySinh().format(DateTimeFormatter.ofPattern(CauHinh.TIME_PATTERN)).equals(ngaySinh))
-				.forEach(hocVien -> System.out.println(hocVien.toString()));
+	public List<HocVien> traCuuTheoThongTin(String loaiThongTin, Object thongTin){
+		String tenLoaiTraCuu = "TraCuuHocVienTheo" + loaiThongTin;
+		try {
+			Class<?> clazz = Class.forName(tenLoaiTraCuu);
+			Object obj = clazz.newInstance();
+			if(!(obj instanceof TraCuuHocVienStrategy)) return null;
+			this.setTraCuuHocVienStrategy((TraCuuHocVienStrategy) obj);
+		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
+		return traCuuHocVienStrategy.traCuuHocVienTheoThongTin(this.getDanhSachHocVien(), thongTin);
 	}
 }

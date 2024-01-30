@@ -1,10 +1,5 @@
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
 
 public class Tester {
     public static void main(String[] args) {
@@ -70,21 +65,21 @@ public class Tester {
                                             String hoTen;
                                             System.out.print("Nhập họ tên: ");
                                             hoTen=CauHinh.nhapDuLieu();
-                                            quanLyHocVien.traCuuTheoHoTen(hoTen);
+                                            System.out.println(quanLyHocVien.traCuuTheoThongTin("HoTen", hoTen));
                                             break;
                                         case 2:
                                             String gioiTinh;
                                             System.out.print("Nhập giới tính: ");
                                             gioiTinh=CauHinh.nhapDuLieu();
                                             System.out.printf("Danh sách học viên có giới tính %s\n",gioiTinh);
-                                            quanLyHocVien.traCuuTheoGioiTinh(gioiTinh);
+                                            System.out.println(quanLyHocVien.traCuuTheoThongTin("GioiTinh", gioiTinh));
                                             break;
                                         case 3:
                                             String queQuan;
                                             System.out.print("Nhập quê quán: ");
                                             queQuan=CauHinh.nhapDuLieu();
                                             System.out.printf("Danh sách học viên có quê quán %s\n",queQuan);
-                                            quanLyHocVien.traCuuTheoQueQuan(queQuan);
+                                        System.out.println(quanLyHocVien.traCuuTheoThongTin("QueQuan", queQuan));
                                             break;
                                         case 4:
                                             String ngaySinh;
@@ -92,7 +87,8 @@ public class Tester {
                                             ngaySinh=CauHinh.nhapDuLieu();
                                             ngaySinh=CauHinh.rangBuocNgayThang(ngaySinh);
                                             System.out.printf("Danh sách học viên có ngày sinh %s\n",ngaySinh);
-                                            quanLyHocVien.traCuuTheoNgaySinh(ngaySinh);
+                                            LocalDate ns = LocalDate.parse(ngaySinh, DateTimeFormatter.ofPattern(CauHinh.TIME_PATTERN));
+                                            System.out.println(quanLyHocVien.traCuuTheoThongTin("NgaySinh", ns));
                                             break;
 
 
